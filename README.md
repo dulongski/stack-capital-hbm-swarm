@@ -47,6 +47,7 @@ python -m stack_hbm_swarm.cli prepare-data
 python -m stack_hbm_swarm.cli build-roster
 python -m stack_hbm_swarm.cli run-simulation --quarters 2026Q2,2026Q3,2026Q4,2027Q1 --run-id demo
 python -m stack_hbm_swarm.cli synthesize --run-id demo
+python -m stack_hbm_swarm.cli forecast-events --run-id demo
 python -m stack_hbm_swarm.cli write-reports --run-id demo
 ```
 
@@ -56,6 +57,8 @@ Outputs:
 - `data/processed/agent_roster.json`
 - `runs/demo/decision_log.jsonl`
 - `runs/demo/synthesis.json`
+- `runs/demo/event_forecasts.json`
+- `runs/demo/event_forecasts.md`
 - `runs/demo/summary.md`
 - `docs/architecture.md`
 - `docs/investment_memo.md`
@@ -79,6 +82,28 @@ python -m stack_hbm_swarm.cli write-reports --run-id llm_run
 ```
 
 The OpenRouter client uses JSON-only prompts, tracks estimated usage, and stops once the configured budget guard is reached.
+
+## Forecasting Layer
+
+The `forecast-events` command is inspired by Thinking Machines/Mantic's world-event forecasting architecture. It converts the simulation record into binary questions, collects a research packet from relevant agent decisions, builds scenario-mixture probabilities by participant cohort, and produces a diversity-weighted ensemble forecast.
+
+```bash
+python -m stack_hbm_swarm.cli forecast-events --run-id demo
+```
+
+If future outcomes are known, pass a JSON file to emit Brier scores:
+
+```bash
+python -m stack_hbm_swarm.cli forecast-events --run-id demo --outcomes outcomes.json
+```
+
+Example `outcomes.json`:
+
+```json
+{
+  "mu_underperforms_memory_peers": true
+}
+```
 
 ## Tests
 

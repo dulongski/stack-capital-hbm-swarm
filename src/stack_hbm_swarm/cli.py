@@ -18,6 +18,7 @@ from .config import (
     ensure_directories,
 )
 from .fmp_client import FMPClient
+from .forecasting import write_forecast_markdown, write_forecasts
 from .graph_loader import load_value_chain_graph
 from .llm_client import OpenRouterClient
 from .report_writer import read_synthesis, write_architecture_doc, write_investment_memo, write_run_summary
@@ -99,6 +100,16 @@ def write_reports(args: argparse.Namespace) -> None:
     print(f"Wrote summary and docs for run {run_dir.name}")
 
 
+def forecast_events(args: argparse.Namespace) -> None:
+    run_dir = _run_dir(args.run_id)
+    roster = load_agent_roster(AGENT_ROSTER_PATH)
+    decisions = load_decisions(run_dir / "decision_log.jsonl")
+    outcomes_path = Path(args.outcomes) if args.outcomes else None
+    forecasts = write_forecasts(decisions, roster, run_dir / "event_forecasts.json", outcomes_path)
+    write_forecast_markdown(forecasts, run_dir / "event_forecasts.md")
+    print(f"Wrote {forecasts['question_count']} event forecasts to {run_dir / 'event_forecasts.json'}")
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Stack Capital HBM swarm simulator")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -128,6 +139,11 @@ def build_parser() -> argparse.ArgumentParser:
     reports = subparsers.add_parser("write-reports")
     reports.add_argument("--run-id", required=True)
     reports.set_defaults(func=write_reports)
+
+    forecasts = subparsers.add_parser("forecast-events")
+    forecasts.add_argument("--run-id", required=True)
+    forecasts.add_argument("--outcomes", help="Optional JSON file mapping forecast question ids to true/false outcomes")
+    forecasts.set_defaults(func=forecast_events)
     return parser
 
 
@@ -139,4 +155,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

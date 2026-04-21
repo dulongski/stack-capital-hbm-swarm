@@ -61,6 +61,17 @@ def write_architecture_doc(path: Path) -> None:
         "The simulation runs sequential quarters from Q2 2026 through Q1 2027. Quarter themes capture the "
         "immediate qualification shock, Samsung shipment start, Q4 HBM4 mix target, and Q1 2027 renewal/capex "
         "effects. Sequential runs preserve path dependence without pretending to forecast exact market prices.\n\n"
+        "## Forecasting Layer\n\n"
+        "The project includes a binary event forecasting layer inspired by Thinking Machines/Mantic's world-event "
+        "forecasting architecture. After role-native simulation decisions are produced, `forecast-events` frames "
+        "those records as research context for concrete questions such as whether MU underperforms memory peers, "
+        "whether Samsung reaches the announced HBM4 revenue mix, whether NVIDIA Rubin supply is pulled forward, "
+        "whether packaging becomes the next binding bottleneck, and whether equipment order expectations are "
+        "revised upward.\n\n"
+        "For each question, the system builds a research packet from relevant decisions, converts each participant "
+        "cohort into scenario-mixture probabilities, and then ensembles cohorts using a diversity-weighted method. "
+        "This adds calibrated, falsifiable forecasts to the qualitative investment memo. If future outcomes are "
+        "supplied later, the same output can include Brier scores.\n\n"
         "## FMP And LLM Use\n\n"
         "FMP and OpenRouter clients are implemented behind environment variables. The default simulation is "
         "offline deterministic for reproducibility and budget control. A `--use-llm` flag enables OpenRouter "
@@ -121,4 +132,3 @@ def write_investment_memo(path: Path, synthesis: dict[str, Any]) -> None:
 
 def read_synthesis(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text())
-

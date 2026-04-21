@@ -1,0 +1,1522 @@
+{
+  "forecasts": [
+    {
+      "base_rate": 0.56,
+      "cohort_forecasts": [
+        {
+          "evidence_signal": 0.829,
+          "participant_type": "sell_side_analyst",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.359,
+              "yes_probability": 0.56
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.416,
+              "yes_probability": 0.712
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.225,
+              "yes_probability": 0.396
+            }
+          ],
+          "yes_probability": 0.586
+        },
+        {
+          "evidence_signal": 0.218,
+          "participant_type": "buy_side_pm",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.389,
+              "yes_probability": 0.56
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.367,
+              "yes_probability": 0.602
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.243,
+              "yes_probability": 0.517
+            }
+          ],
+          "yes_probability": 0.564
+        },
+        {
+          "evidence_signal": -0.062,
+          "participant_type": "trader",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.397,
+              "yes_probability": 0.56
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.248,
+              "yes_probability": 0.572
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.355,
+              "yes_probability": 0.548
+            }
+          ],
+          "yes_probability": 0.559
+        },
+        {
+          "evidence_signal": -0.492,
+          "participant_type": "memory_exec",
+          "sample_count": 24,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.375,
+              "yes_probability": 0.56
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.235,
+              "yes_probability": 0.654
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.389,
+              "yes_probability": 0.462
+            }
+          ],
+          "yes_probability": 0.543
+        },
+        {
+          "evidence_signal": -0.699,
+          "participant_type": "equipment_rep",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.365,
+              "yes_probability": 0.56
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.229,
+              "yes_probability": 0.69
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.406,
+              "yes_probability": 0.421
+            }
+          ],
+          "yes_probability": 0.533
+        },
+        {
+          "evidence_signal": -1.064,
+          "participant_type": "procurement_exec",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.347,
+              "yes_probability": 0.56
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.218,
+              "yes_probability": 0.749
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.435,
+              "yes_probability": 0.352
+            }
+          ],
+          "yes_probability": 0.511
+        },
+        {
+          "evidence_signal": -1.164,
+          "participant_type": "nvidia_supply",
+          "sample_count": 12,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.342,
+              "yes_probability": 0.56
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.215,
+              "yes_probability": 0.764
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.443,
+              "yes_probability": 0.334
+            }
+          ],
+          "yes_probability": 0.504
+        }
+      ],
+      "deadline": "2027-03-31",
+      "ensemble": {
+        "method": "diversity-weighted cohort ensemble inspired by Mantic's forecasting architecture",
+        "no_probability": 0.456,
+        "weights": [
+          {
+            "participant_type": "sell_side_analyst",
+            "weight": 0.19,
+            "yes_probability": 0.586
+          },
+          {
+            "participant_type": "buy_side_pm",
+            "weight": 0.145,
+            "yes_probability": 0.564
+          },
+          {
+            "participant_type": "procurement_exec",
+            "weight": 0.156,
+            "yes_probability": 0.511
+          },
+          {
+            "participant_type": "nvidia_supply",
+            "weight": 0.153,
+            "yes_probability": 0.504
+          },
+          {
+            "participant_type": "memory_exec",
+            "weight": 0.108,
+            "yes_probability": 0.543
+          },
+          {
+            "participant_type": "equipment_rep",
+            "weight": 0.122,
+            "yes_probability": 0.533
+          },
+          {
+            "participant_type": "trader",
+            "weight": 0.126,
+            "yes_probability": 0.559
+          }
+        ],
+        "yes_probability": 0.544
+      },
+      "question": "Will MU underperform the Samsung/SK Hynix memory peer basket by Q1 2027?",
+      "question_id": "mu_underperforms_memory_peers",
+      "rationale": "The catalyst directly tests whether a third qualified HBM4 source compresses Micron's scarcity premium.",
+      "research_packet": {
+        "evidence_count": 128,
+        "evidence_samples": [
+          {
+            "agent_id": "a01",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 1 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a02",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 2 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a03",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 3 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a04",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 4 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a05",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 5 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a06",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 1 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a07",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 2 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a08",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 3 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          }
+        ]
+      },
+      "target_nodes": [
+        "3.3",
+        "3.5"
+      ],
+      "target_tickers": [
+        "MU"
+      ],
+      "yes_direction": "negative"
+    },
+    {
+      "base_rate": 0.55,
+      "cohort_forecasts": [
+        {
+          "evidence_signal": 1.863,
+          "participant_type": "nvidia_supply",
+          "sample_count": 12,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.307,
+              "yes_probability": 0.55
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.499,
+              "yes_probability": 0.844
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.194,
+              "yes_probability": 0.216
+            }
+          ],
+          "yes_probability": 0.632
+        },
+        {
+          "evidence_signal": 1.703,
+          "participant_type": "procurement_exec",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.315,
+              "yes_probability": 0.55
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.486,
+              "yes_probability": 0.827
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.199,
+              "yes_probability": 0.238
+            }
+          ],
+          "yes_probability": 0.623
+        },
+        {
+          "evidence_signal": 0.699,
+          "participant_type": "equipment_rep",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.365,
+              "yes_probability": 0.55
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.406,
+              "yes_probability": 0.681
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.229,
+              "yes_probability": 0.411
+            }
+          ],
+          "yes_probability": 0.571
+        },
+        {
+          "evidence_signal": 0.492,
+          "participant_type": "memory_exec",
+          "sample_count": 24,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.375,
+              "yes_probability": 0.55
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.389,
+              "yes_probability": 0.644
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.235,
+              "yes_probability": 0.452
+            }
+          ],
+          "yes_probability": 0.563
+        },
+        {
+          "evidence_signal": 0.062,
+          "participant_type": "trader",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.397,
+              "yes_probability": 0.55
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.355,
+              "yes_probability": 0.562
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.248,
+              "yes_probability": 0.538
+            }
+          ],
+          "yes_probability": 0.551
+        },
+        {
+          "evidence_signal": -0.136,
+          "participant_type": "buy_side_pm",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.393,
+              "yes_probability": 0.55
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.246,
+              "yes_probability": 0.577
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.361,
+              "yes_probability": 0.523
+            }
+          ],
+          "yes_probability": 0.547
+        },
+        {
+          "evidence_signal": -0.518,
+          "participant_type": "sell_side_analyst",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.374,
+              "yes_probability": 0.55
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.234,
+              "yes_probability": 0.649
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.391,
+              "yes_probability": 0.447
+            }
+          ],
+          "yes_probability": 0.532
+        }
+      ],
+      "deadline": "2026-12-31",
+      "ensemble": {
+        "method": "diversity-weighted cohort ensemble inspired by Mantic's forecasting architecture",
+        "no_probability": 0.423,
+        "weights": [
+          {
+            "participant_type": "sell_side_analyst",
+            "weight": 0.171,
+            "yes_probability": 0.532
+          },
+          {
+            "participant_type": "buy_side_pm",
+            "weight": 0.143,
+            "yes_probability": 0.547
+          },
+          {
+            "participant_type": "procurement_exec",
+            "weight": 0.171,
+            "yes_probability": 0.623
+          },
+          {
+            "participant_type": "nvidia_supply",
+            "weight": 0.169,
+            "yes_probability": 0.632
+          },
+          {
+            "participant_type": "memory_exec",
+            "weight": 0.12,
+            "yes_probability": 0.563
+          },
+          {
+            "participant_type": "equipment_rep",
+            "weight": 0.099,
+            "yes_probability": 0.571
+          },
+          {
+            "participant_type": "trader",
+            "weight": 0.127,
+            "yes_probability": 0.551
+          }
+        ],
+        "yes_probability": 0.577
+      },
+      "question": "Will Samsung plausibly reach HBM4 at 40% of total HBM revenue by Q4 2026?",
+      "question_id": "samsung_hbm4_mix_hits_40",
+      "rationale": "The announced target is central to the hypothetical event and drives share-shift scenarios.",
+      "research_packet": {
+        "evidence_count": 128,
+        "evidence_samples": [
+          {
+            "agent_id": "a01",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 1 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a02",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 2 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a03",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 3 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a04",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 4 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a05",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 5 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a06",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 1 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a07",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 2 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a08",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 3 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          }
+        ]
+      },
+      "target_nodes": [
+        "3.3",
+        "3.5"
+      ],
+      "target_tickers": [
+        "005930.KS"
+      ],
+      "yes_direction": "positive"
+    },
+    {
+      "base_rate": 0.5,
+      "cohort_forecasts": [
+        {
+          "evidence_signal": 1.863,
+          "participant_type": "nvidia_supply",
+          "sample_count": 12,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.307,
+              "yes_probability": 0.5
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.499,
+              "yes_probability": 0.816
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.194,
+              "yes_probability": 0.184
+            }
+          ],
+          "yes_probability": 0.596
+        },
+        {
+          "evidence_signal": 1.703,
+          "participant_type": "procurement_exec",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.315,
+              "yes_probability": 0.5
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.486,
+              "yes_probability": 0.796
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.199,
+              "yes_probability": 0.204
+            }
+          ],
+          "yes_probability": 0.585
+        },
+        {
+          "evidence_signal": 0.699,
+          "participant_type": "equipment_rep",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.365,
+              "yes_probability": 0.5
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.406,
+              "yes_probability": 0.636
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.229,
+              "yes_probability": 0.364
+            }
+          ],
+          "yes_probability": 0.524
+        },
+        {
+          "evidence_signal": -0.518,
+          "participant_type": "sell_side_analyst",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.374,
+              "yes_probability": 0.5
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.234,
+              "yes_probability": 0.602
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.391,
+              "yes_probability": 0.398
+            }
+          ],
+          "yes_probability": 0.483
+        },
+        {
+          "evidence_signal": 0.307,
+          "participant_type": "memory_exec",
+          "sample_count": 24,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.385,
+              "yes_probability": 0.5
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.375,
+              "yes_probability": 0.561
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.241,
+              "yes_probability": 0.439
+            }
+          ],
+          "yes_probability": 0.509
+        },
+        {
+          "evidence_signal": -0.136,
+          "participant_type": "buy_side_pm",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.393,
+              "yes_probability": 0.5
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.246,
+              "yes_probability": 0.527
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.361,
+              "yes_probability": 0.473
+            }
+          ],
+          "yes_probability": 0.497
+        },
+        {
+          "evidence_signal": 0.062,
+          "participant_type": "trader",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.397,
+              "yes_probability": 0.5
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.355,
+              "yes_probability": 0.512
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.248,
+              "yes_probability": 0.488
+            }
+          ],
+          "yes_probability": 0.501
+        }
+      ],
+      "deadline": "2027-03-31",
+      "ensemble": {
+        "method": "diversity-weighted cohort ensemble inspired by Mantic's forecasting architecture",
+        "no_probability": 0.468,
+        "weights": [
+          {
+            "participant_type": "sell_side_analyst",
+            "weight": 0.166,
+            "yes_probability": 0.483
+          },
+          {
+            "participant_type": "buy_side_pm",
+            "weight": 0.141,
+            "yes_probability": 0.497
+          },
+          {
+            "participant_type": "procurement_exec",
+            "weight": 0.174,
+            "yes_probability": 0.585
+          },
+          {
+            "participant_type": "nvidia_supply",
+            "weight": 0.174,
+            "yes_probability": 0.596
+          },
+          {
+            "participant_type": "memory_exec",
+            "weight": 0.127,
+            "yes_probability": 0.509
+          },
+          {
+            "participant_type": "equipment_rep",
+            "weight": 0.094,
+            "yes_probability": 0.524
+          },
+          {
+            "participant_type": "trader",
+            "weight": 0.125,
+            "yes_probability": 0.501
+          }
+        ],
+        "yes_probability": 0.532
+      },
+      "question": "Will HBM4 availability pull forward NVIDIA Rubin platform supply or deployment plans before Q1 2027?",
+      "question_id": "rubin_supply_pull_forward",
+      "rationale": "This captures the bull case that HBM relief expands total GPU/system shipments.",
+      "research_packet": {
+        "evidence_count": 128,
+        "evidence_samples": [
+          {
+            "agent_id": "a01",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 1 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a02",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 2 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a03",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 3 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a04",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 4 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a05",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 5 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a06",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 1 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a07",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 2 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a08",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 3 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          }
+        ]
+      },
+      "target_nodes": [
+        "3.1",
+        "3.3",
+        "3.5",
+        "5.1"
+      ],
+      "target_tickers": [
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "yes_direction": "positive"
+    },
+    {
+      "base_rate": 0.58,
+      "cohort_forecasts": [
+        {
+          "evidence_signal": 1.863,
+          "participant_type": "nvidia_supply",
+          "sample_count": 12,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.307,
+              "yes_probability": 0.58
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.499,
+              "yes_probability": 0.86
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.194,
+              "yes_probability": 0.237
+            }
+          ],
+          "yes_probability": 0.653
+        },
+        {
+          "evidence_signal": 1.703,
+          "participant_type": "procurement_exec",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.315,
+              "yes_probability": 0.58
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.486,
+              "yes_probability": 0.844
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.199,
+              "yes_probability": 0.261
+            }
+          ],
+          "yes_probability": 0.645
+        },
+        {
+          "evidence_signal": 0.492,
+          "participant_type": "memory_exec",
+          "sample_count": 24,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.375,
+              "yes_probability": 0.58
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.389,
+              "yes_probability": 0.672
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.235,
+              "yes_probability": 0.482
+            }
+          ],
+          "yes_probability": 0.592
+        },
+        {
+          "evidence_signal": 0.062,
+          "participant_type": "trader",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.397,
+              "yes_probability": 0.58
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.355,
+              "yes_probability": 0.592
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.248,
+              "yes_probability": 0.568
+            }
+          ],
+          "yes_probability": 0.581
+        },
+        {
+          "evidence_signal": -0.218,
+          "participant_type": "buy_side_pm",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.389,
+              "yes_probability": 0.58
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.243,
+              "yes_probability": 0.622
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.367,
+              "yes_probability": 0.537
+            }
+          ],
+          "yes_probability": 0.574
+        },
+        {
+          "evidence_signal": -0.829,
+          "participant_type": "sell_side_analyst",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.359,
+              "yes_probability": 0.58
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.225,
+              "yes_probability": 0.728
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.416,
+              "yes_probability": 0.416
+            }
+          ],
+          "yes_probability": 0.545
+        }
+      ],
+      "deadline": "2027-03-31",
+      "ensemble": {
+        "method": "diversity-weighted cohort ensemble inspired by Mantic's forecasting architecture",
+        "no_probability": 0.401,
+        "weights": [
+          {
+            "participant_type": "sell_side_analyst",
+            "weight": 0.216,
+            "yes_probability": 0.545
+          },
+          {
+            "participant_type": "buy_side_pm",
+            "weight": 0.156,
+            "yes_probability": 0.574
+          },
+          {
+            "participant_type": "procurement_exec",
+            "weight": 0.188,
+            "yes_probability": 0.645
+          },
+          {
+            "participant_type": "nvidia_supply",
+            "weight": 0.184,
+            "yes_probability": 0.653
+          },
+          {
+            "participant_type": "memory_exec",
+            "weight": 0.125,
+            "yes_probability": 0.592
+          },
+          {
+            "participant_type": "trader",
+            "weight": 0.131,
+            "yes_probability": 0.581
+          }
+        ],
+        "yes_probability": 0.599
+      },
+      "question": "Will advanced packaging or substrate capacity become the binding bottleneck before Q1 2027?",
+      "question_id": "packaging_becomes_binding_constraint",
+      "rationale": "If HBM loosens, the next constraint likely shifts to package assembly, interposers, substrates, or thermal materials.",
+      "research_packet": {
+        "evidence_count": 108,
+        "evidence_samples": [
+          {
+            "agent_id": "a01",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 1 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a02",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 2 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a03",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 3 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a04",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 4 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a05",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 5 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a06",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 1 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a07",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 2 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a08",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 3 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          }
+        ]
+      },
+      "target_nodes": [
+        "3.5",
+        "4.2",
+        "4.3"
+      ],
+      "target_tickers": [
+        "NVDA",
+        "005930.KS",
+        "000660.KS",
+        "MU"
+      ],
+      "yes_direction": "positive"
+    },
+    {
+      "base_rate": 0.52,
+      "cohort_forecasts": [
+        {
+          "evidence_signal": 1.164,
+          "participant_type": "nvidia_supply",
+          "sample_count": 12,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.342,
+              "yes_probability": 0.52
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.443,
+              "yes_probability": 0.733
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.215,
+              "yes_probability": 0.299
+            }
+          ],
+          "yes_probability": 0.567
+        },
+        {
+          "evidence_signal": 1.118,
+          "participant_type": "equipment_rep",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.344,
+              "yes_probability": 0.52
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.439,
+              "yes_probability": 0.726
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.216,
+              "yes_probability": 0.307
+            }
+          ],
+          "yes_probability": 0.564
+        },
+        {
+          "evidence_signal": 1.064,
+          "participant_type": "procurement_exec",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.347,
+              "yes_probability": 0.52
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.435,
+              "yes_probability": 0.717
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.218,
+              "yes_probability": 0.316
+            }
+          ],
+          "yes_probability": 0.561
+        },
+        {
+          "evidence_signal": 0.307,
+          "participant_type": "memory_exec",
+          "sample_count": 24,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.385,
+              "yes_probability": 0.52
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.375,
+              "yes_probability": 0.581
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.241,
+              "yes_probability": 0.459
+            }
+          ],
+          "yes_probability": 0.529
+        },
+        {
+          "evidence_signal": 0.039,
+          "participant_type": "trader",
+          "sample_count": 16,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.398,
+              "yes_probability": 0.52
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.353,
+              "yes_probability": 0.528
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.249,
+              "yes_probability": 0.512
+            }
+          ],
+          "yes_probability": 0.521
+        },
+        {
+          "evidence_signal": -0.136,
+          "participant_type": "buy_side_pm",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.393,
+              "yes_probability": 0.52
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.246,
+              "yes_probability": 0.547
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.361,
+              "yes_probability": 0.493
+            }
+          ],
+          "yes_probability": 0.517
+        },
+        {
+          "evidence_signal": -0.518,
+          "participant_type": "sell_side_analyst",
+          "sample_count": 20,
+          "scenario_components": [
+            {
+              "name": "base_case",
+              "weight": 0.374,
+              "yes_probability": 0.52
+            },
+            {
+              "name": "catalyst_accelerates",
+              "weight": 0.234,
+              "yes_probability": 0.621
+            },
+            {
+              "name": "catalyst_fades",
+              "weight": 0.391,
+              "yes_probability": 0.417
+            }
+          ],
+          "yes_probability": 0.503
+        }
+      ],
+      "deadline": "2027-03-31",
+      "ensemble": {
+        "method": "diversity-weighted cohort ensemble inspired by Mantic's forecasting architecture",
+        "no_probability": 0.463,
+        "weights": [
+          {
+            "participant_type": "sell_side_analyst",
+            "weight": 0.172,
+            "yes_probability": 0.503
+          },
+          {
+            "participant_type": "buy_side_pm",
+            "weight": 0.144,
+            "yes_probability": 0.517
+          },
+          {
+            "participant_type": "procurement_exec",
+            "weight": 0.14,
+            "yes_probability": 0.561
+          },
+          {
+            "participant_type": "nvidia_supply",
+            "weight": 0.137,
+            "yes_probability": 0.567
+          },
+          {
+            "participant_type": "memory_exec",
+            "weight": 0.126,
+            "yes_probability": 0.529
+          },
+          {
+            "participant_type": "equipment_rep",
+            "weight": 0.156,
+            "yes_probability": 0.564
+          },
+          {
+            "participant_type": "trader",
+            "weight": 0.126,
+            "yes_probability": 0.521
+          }
+        ],
+        "yes_probability": 0.537
+      },
+      "question": "Will memory/packaging equipment order expectations be revised upward by Q1 2027?",
+      "question_id": "memory_equipment_orders_revised_up",
+      "rationale": "Samsung catch-up and competitive capacity responses should show up in equipment-order expectations.",
+      "research_packet": {
+        "evidence_count": 128,
+        "evidence_samples": [
+          {
+            "agent_id": "a01",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 1 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a02",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 2 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a03",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 3 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a04",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 4 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a05",
+            "confidence": 0.64,
+            "decision_type": "estimate_revision",
+            "direction": "negative",
+            "magnitude": -2,
+            "participant_type": "sell_side_analyst",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Sell-side semiconductor analyst 5 interprets the Samsung HBM4 catalyst through balanced_revisionist: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a06",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 1 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a07",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 2 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          },
+          {
+            "agent_id": "a08",
+            "confidence": 0.79,
+            "decision_type": "position_adjustment",
+            "direction": "mixed",
+            "magnitude": -1,
+            "participant_type": "buy_side_pm",
+            "quarter": "2026Q2",
+            "reasoning": "Immediate market repricing after Samsung yield parity and NVIDIA initial qualification. Buy-side portfolio manager 3 interprets the Samsung HBM4 catalyst through portfolio_risk_reward: the event changes supplier leverage, HBM availability, packaging load, and downstream deployment timing rather than creating a single-stock Micron-only signal."
+          }
+        ]
+      },
+      "target_nodes": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "3.3",
+        "3.5"
+      ],
+      "target_tickers": [
+        "ASML",
+        "AMAT",
+        "LRCX",
+        "8035.T"
+      ],
+      "yes_direction": "positive"
+    }
+  ],
+  "method": {
+    "note": "No future outcomes are assumed; Brier scores are only emitted if an outcomes file is provided.",
+    "pattern": "research packet -> binary forecast -> scenario mixture -> diversity-weighted ensemble",
+    "source_inspiration": "Thinking Machines / Mantic world-event forecasting post"
+  },
+  "question_count": 5
+}
