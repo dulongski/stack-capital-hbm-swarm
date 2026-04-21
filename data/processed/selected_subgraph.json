@@ -1,0 +1,1317 @@
+{
+  "boundary_edge_count": 178,
+  "boundary_edges": [
+    {
+      "description": "Copper foil and conductive stock are embodied in multilayer PCBs and advanced packaging substrates.",
+      "direction": "downstream",
+      "from_node": "1.3",
+      "relationship": "feeds_into",
+      "to_node": "4.2"
+    },
+    {
+      "description": "Copper inputs are used in copper pillars, heat spreaders, and other packaging/thermal materials.",
+      "direction": "downstream",
+      "from_node": "1.3",
+      "relationship": "feeds_into",
+      "to_node": "4.3"
+    },
+    {
+      "description": "Semiconductor-grade wafers are supplied into DRAM, HBM, and NAND fabrication lines.",
+      "direction": "downstream",
+      "from_node": "1.8B",
+      "relationship": "feeds_into",
+      "to_node": "3.3"
+    },
+    {
+      "description": "DUV/EUV lithography systems are required for foundry process flows and logic-node migration.",
+      "direction": "downstream",
+      "from_node": "2.1",
+      "relationship": "enables",
+      "to_node": "3.4"
+    },
+    {
+      "description": "Lithography capability is required to fabricate PMICs, controllers, and silicon power devices.",
+      "direction": "downstream",
+      "from_node": "2.1",
+      "relationship": "enables",
+      "to_node": "3.6"
+    },
+    {
+      "description": "Lithography capability is needed for silicon photonics and III\u2013V device patterning.",
+      "direction": "downstream",
+      "from_node": "2.1",
+      "relationship": "enables",
+      "to_node": "8.1B"
+    },
+    {
+      "description": "Deposition, etch, implantation, anneal, CMP, and related tools are used on every major foundry wafer layer.",
+      "direction": "downstream",
+      "from_node": "2.2",
+      "relationship": "enables",
+      "to_node": "3.4"
+    },
+    {
+      "description": "Process equipment is required to fabricate PMICs, MOSFETs, GaN/SiC devices, and control ICs.",
+      "direction": "downstream",
+      "from_node": "2.2",
+      "relationship": "enables",
+      "to_node": "3.6"
+    },
+    {
+      "description": "Crystal-growth, process, and epitaxy-adjacent equipment is used in SiC/GaN substrate and epi production.",
+      "direction": "downstream",
+      "from_node": "2.2",
+      "relationship": "enables",
+      "to_node": "3.8"
+    },
+    {
+      "description": "Deposition/etch/process equipment is required for lasers, modulators, detectors, and PIC fabrication.",
+      "direction": "downstream",
+      "from_node": "2.2",
+      "relationship": "enables",
+      "to_node": "8.1B"
+    },
+    {
+      "description": "Inline metrology, inspection, and wafer sort are required for foundry yield learning and production control.",
+      "direction": "downstream",
+      "from_node": "2.3",
+      "relationship": "enables",
+      "to_node": "3.4"
+    },
+    {
+      "description": "Electro-optical alignment, calibration, and high-volume test equipment is required for photonics packaging.",
+      "direction": "downstream",
+      "from_node": "2.3",
+      "relationship": "enables",
+      "to_node": "8.5"
+    },
+    {
+      "description": "Photomask supply, pellicles, inspection, and repair are needed for memory process iteration and yield ramp.",
+      "direction": "downstream",
+      "from_node": "2.4",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Resists, slurries, cleans, dopants, and deposition precursors are consumed in memory fabs.",
+      "direction": "downstream",
+      "from_node": "2.5",
+      "relationship": "feeds_into",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Underfills, molds, solder/flux, and assembly chemistries are consumed in advanced packaging lines.",
+      "direction": "downstream",
+      "from_node": "2.5",
+      "relationship": "feeds_into",
+      "to_node": "3.5"
+    },
+    {
+      "description": "RTL-to-GDS, verification, physical design, and timing/signoff flows are required for GPU/ASIC tapeout.",
+      "direction": "downstream",
+      "from_node": "2.6",
+      "relationship": "enables",
+      "to_node": "3.1"
+    },
+    {
+      "description": "Memory-device design, verification, and physical implementation rely on EDA and simulation toolchains.",
+      "direction": "downstream",
+      "from_node": "2.6",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Fab utilities such as UPW, gas distribution, vacuum, abatement, and contamination control are required for memory production.",
+      "direction": "downstream",
+      "from_node": "2.7",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Cleanroom utilities, exhaust, and chemical delivery are required for advanced packaging and assembly operations.",
+      "direction": "downstream",
+      "from_node": "2.7",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "MES/APC/FDC and equipment-automation loops coordinate WIP, recipes, and process control across memory fabs.",
+      "direction": "downstream",
+      "from_node": "2.8",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Package-line automation, recipe control, and traceability coordinate advanced packaging and test operations.",
+      "direction": "downstream",
+      "from_node": "2.8",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "AMHS, carriers, and stockers move wafers between process steps across large memory fabs.",
+      "direction": "downstream",
+      "from_node": "2.9",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "RTL-to-GDS, verification, physical design, and timing/signoff flows are required for GPU/ASIC tapeout.",
+      "direction": "upstream",
+      "from_node": "3.1",
+      "relationship": "enables",
+      "to_node": "2.6"
+    },
+    {
+      "description": "Leading-edge wafer fabrication services are required to turn accelerator designs into manufactured die.",
+      "direction": "upstream",
+      "from_node": "3.1",
+      "relationship": "enables",
+      "to_node": "3.4"
+    },
+    {
+      "description": "Packaged accelerators are delivered to EMS lines for board and system assembly.",
+      "direction": "downstream",
+      "from_node": "3.1",
+      "relationship": "feeds_into",
+      "to_node": "5.2"
+    },
+    {
+      "description": "Accelerator ISA, memory hierarchy, and interconnect semantics define the driver/compiler/runtime stack.",
+      "direction": "downstream",
+      "from_node": "3.1",
+      "relationship": "enables",
+      "to_node": "9.2"
+    },
+    {
+      "description": "On-device NPUs/GPUs and inference accelerators provide local AI execution engines in consumer hardware.",
+      "direction": "downstream",
+      "from_node": "3.1",
+      "relationship": "feeds_into",
+      "to_node": "12.2"
+    },
+    {
+      "description": "Embedded AI accelerators provide local perception and policy execution in robot compute stacks.",
+      "direction": "downstream",
+      "from_node": "3.1",
+      "relationship": "feeds_into",
+      "to_node": "12.3"
+    },
+    {
+      "description": "Autonomous compute boards integrate accelerators for perception, planning, and sensor fusion.",
+      "direction": "downstream",
+      "from_node": "3.1",
+      "relationship": "feeds_into",
+      "to_node": "12.4"
+    },
+    {
+      "description": "Package assembly, bumping, and final test are required to ship CPUs.",
+      "direction": "upstream",
+      "from_node": "3.2",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "CPUs provide host compute, orchestration, and I/O control inside server platforms.",
+      "direction": "downstream",
+      "from_node": "3.2",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Semiconductor-grade wafers are supplied into DRAM, HBM, and NAND fabrication lines.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "1.8B"
+    },
+    {
+      "description": "Photomask supply, pellicles, inspection, and repair are needed for memory process iteration and yield ramp.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.4"
+    },
+    {
+      "description": "Resists, slurries, cleans, dopants, and deposition precursors are consumed in memory fabs.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "2.5"
+    },
+    {
+      "description": "Memory-device design, verification, and physical implementation rely on EDA and simulation toolchains.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.6"
+    },
+    {
+      "description": "Fab utilities such as UPW, gas distribution, vacuum, abatement, and contamination control are required for memory production.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.7"
+    },
+    {
+      "description": "MES/APC/FDC and equipment-automation loops coordinate WIP, recipes, and process control across memory fabs.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.8"
+    },
+    {
+      "description": "AMHS, carriers, and stockers move wafers between process steps across large memory fabs.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.9"
+    },
+    {
+      "description": "Memory devices and flash are loaded onto assembled boards, modules, and storage subsystems.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "5.2"
+    },
+    {
+      "description": "NAND flash and DRAM populate SSDs, storage nodes, and controller memory in storage platforms.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "5.3"
+    },
+    {
+      "description": "LPDDR/DRAM/NAND provide working memory and storage in on-device AI hardware.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "12.2"
+    },
+    {
+      "description": "Memory devices hold model weights, sensor buffers, and local data on robot compute platforms.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "12.3"
+    },
+    {
+      "description": "Memory devices store maps, models, and sensor histories in autonomous systems.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "12.4"
+    },
+    {
+      "description": "DUV/EUV lithography systems are required for foundry process flows and logic-node migration.",
+      "direction": "upstream",
+      "from_node": "3.4",
+      "relationship": "enables",
+      "to_node": "2.1"
+    },
+    {
+      "description": "Deposition, etch, implantation, anneal, CMP, and related tools are used on every major foundry wafer layer.",
+      "direction": "upstream",
+      "from_node": "3.4",
+      "relationship": "enables",
+      "to_node": "2.2"
+    },
+    {
+      "description": "Inline metrology, inspection, and wafer sort are required for foundry yield learning and production control.",
+      "direction": "upstream",
+      "from_node": "3.4",
+      "relationship": "enables",
+      "to_node": "2.3"
+    },
+    {
+      "description": "Leading-edge wafer fabrication services are required to turn accelerator designs into manufactured die.",
+      "direction": "downstream",
+      "from_node": "3.4",
+      "relationship": "enables",
+      "to_node": "3.1"
+    },
+    {
+      "description": "Processed wafers and known-good die flow from wafer fabs into OSAT and advanced packaging lines.",
+      "direction": "downstream",
+      "from_node": "3.4",
+      "relationship": "feeds_into",
+      "to_node": "3.5"
+    },
+    {
+      "description": "Underfills, molds, solder/flux, and assembly chemistries are consumed in advanced packaging lines.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "feeds_into",
+      "to_node": "2.5"
+    },
+    {
+      "description": "Cleanroom utilities, exhaust, and chemical delivery are required for advanced packaging and assembly operations.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "2.7"
+    },
+    {
+      "description": "Package-line automation, recipe control, and traceability coordinate advanced packaging and test operations.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "2.8"
+    },
+    {
+      "description": "Processed wafers and known-good die flow from wafer fabs into OSAT and advanced packaging lines.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "feeds_into",
+      "to_node": "3.4"
+    },
+    {
+      "description": "Package assembly, bumping, and final test are required to ship CPUs.",
+      "direction": "downstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "3.2"
+    },
+    {
+      "description": "Package assembly and final test are required to ship power semiconductors and VRM products.",
+      "direction": "downstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "3.6"
+    },
+    {
+      "description": "Package assembly and high-speed test are required to ship networking and interconnect silicon.",
+      "direction": "downstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "3.7"
+    },
+    {
+      "description": "Lithography capability is required to fabricate PMICs, controllers, and silicon power devices.",
+      "direction": "upstream",
+      "from_node": "3.6",
+      "relationship": "enables",
+      "to_node": "2.1"
+    },
+    {
+      "description": "Process equipment is required to fabricate PMICs, MOSFETs, GaN/SiC devices, and control ICs.",
+      "direction": "upstream",
+      "from_node": "3.6",
+      "relationship": "enables",
+      "to_node": "2.2"
+    },
+    {
+      "description": "Package assembly and final test are required to ship power semiconductors and VRM products.",
+      "direction": "upstream",
+      "from_node": "3.6",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "Power boards and substrates carry packaged power devices and control circuitry.",
+      "direction": "upstream",
+      "from_node": "3.6",
+      "relationship": "feeds_into",
+      "to_node": "4.2"
+    },
+    {
+      "description": "PMICs, VRMs, DC-DC stages, and gate drivers enable high-density server power delivery.",
+      "direction": "downstream",
+      "from_node": "3.6",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Package assembly and high-speed test are required to ship networking and interconnect silicon.",
+      "direction": "upstream",
+      "from_node": "3.7",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "NICs, DPUs, retimers, and PCIe/CXL/interconnect silicon are integrated into server platforms.",
+      "direction": "downstream",
+      "from_node": "3.7",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Crystal-growth, process, and epitaxy-adjacent equipment is used in SiC/GaN substrate and epi production.",
+      "direction": "upstream",
+      "from_node": "3.8",
+      "relationship": "enables",
+      "to_node": "2.2"
+    },
+    {
+      "description": "Capacitors, inductors, filters, clocks, and resistors populate server motherboards and accelerator carrier boards.",
+      "direction": "downstream",
+      "from_node": "4.1",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Copper foil and conductive stock are embodied in multilayer PCBs and advanced packaging substrates.",
+      "direction": "upstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "1.3"
+    },
+    {
+      "description": "Power boards and substrates carry packaged power devices and control circuitry.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "3.6"
+    },
+    {
+      "description": "Fabricated PCBs and substrates are the baseboards assembled by EMS providers.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "5.2"
+    },
+    {
+      "description": "Storage controllers, SSDs, and storage nodes are built on multilayer PCB assemblies.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "5.3"
+    },
+    {
+      "description": "Substrates and boards carry optics, DSPs, power, and control circuitry inside transceiver modules.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "8.1C"
+    },
+    {
+      "description": "Switch/router boards and line cards depend on advanced multilayer PCB supply.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "8.2"
+    },
+    {
+      "description": "Device mainboards and interposers depend on advanced PCB and substrate fabrication.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "12.2"
+    },
+    {
+      "description": "Copper inputs are used in copper pillars, heat spreaders, and other packaging/thermal materials.",
+      "direction": "upstream",
+      "from_node": "4.3",
+      "relationship": "feeds_into",
+      "to_node": "1.3"
+    },
+    {
+      "description": "Thermal interface and sealing materials sit directly between hot chips and liquid-cooling hardware.",
+      "direction": "downstream",
+      "from_node": "4.3",
+      "relationship": "feeds_into",
+      "to_node": "6.2A"
+    },
+    {
+      "description": "Epoxies, attach materials, underfills, and thermal compounds are used in photonics packaging and assembly.",
+      "direction": "downstream",
+      "from_node": "4.3",
+      "relationship": "feeds_into",
+      "to_node": "8.5"
+    },
+    {
+      "description": "High-speed copper/optical cables, backplanes, harnesses, and power connectors tie server subsystems together.",
+      "direction": "downstream",
+      "from_node": "4.4",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "CPUs provide host compute, orchestration, and I/O control inside server platforms.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "3.2"
+    },
+    {
+      "description": "PMICs, VRMs, DC-DC stages, and gate drivers enable high-density server power delivery.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "3.6"
+    },
+    {
+      "description": "NICs, DPUs, retimers, and PCIe/CXL/interconnect silicon are integrated into server platforms.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "3.7"
+    },
+    {
+      "description": "Capacitors, inductors, filters, clocks, and resistors populate server motherboards and accelerator carrier boards.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "4.1"
+    },
+    {
+      "description": "High-speed copper/optical cables, backplanes, harnesses, and power connectors tie server subsystems together.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "4.4"
+    }
+  ],
+  "core_tickers": [
+    "MU",
+    "005930.KS",
+    "000660.KS",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "MSFT",
+    "ASML",
+    "AMAT",
+    "LRCX",
+    "8035.T"
+  ],
+  "edge_count": 32,
+  "edges": [
+    {
+      "description": "Lithography toolsets are required for DRAM/NAND/HBM patterning and memory-layer scaling.",
+      "direction": "downstream",
+      "from_node": "2.1",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Process-tool chains are required for memory cell formation, pattern transfer, and BEOL integration.",
+      "direction": "downstream",
+      "from_node": "2.2",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Bumping, redistribution, plating, molding, and related packaging process tools are used inside OSAT lines.",
+      "direction": "downstream",
+      "from_node": "2.2",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "Defect inspection, metrology, and electrical test are required for memory yield management and binning.",
+      "direction": "downstream",
+      "from_node": "2.3",
+      "relationship": "enables",
+      "to_node": "3.3"
+    },
+    {
+      "description": "Package test, burn-in, and inspection are required to ship advanced packaged devices.",
+      "direction": "downstream",
+      "from_node": "2.3",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "HBM stack availability and memory process output directly gate advanced accelerator package volume.",
+      "direction": "upstream",
+      "from_node": "3.1",
+      "relationship": "constrains",
+      "to_node": "3.3"
+    },
+    {
+      "description": "2.5D/3D packaging, interposers, bumping, and final assembly are required to ship AI accelerators.",
+      "direction": "upstream",
+      "from_node": "3.1",
+      "relationship": "enables",
+      "to_node": "3.5"
+    },
+    {
+      "description": "GPUs and custom AI accelerators are integrated as the primary acceleration modules in server platforms.",
+      "direction": "downstream",
+      "from_node": "3.1",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Lithography toolsets are required for DRAM/NAND/HBM patterning and memory-layer scaling.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.1"
+    },
+    {
+      "description": "Process-tool chains are required for memory cell formation, pattern transfer, and BEOL integration.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.2"
+    },
+    {
+      "description": "Defect inspection, metrology, and electrical test are required for memory yield management and binning.",
+      "direction": "upstream",
+      "from_node": "3.3",
+      "relationship": "enables",
+      "to_node": "2.3"
+    },
+    {
+      "description": "HBM stack availability and memory process output directly gate advanced accelerator package volume.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "constrains",
+      "to_node": "3.1"
+    },
+    {
+      "description": "Memory die, including HBM stacks and NAND/DRAM components, enter OSAT lines for stacking, packaging, and final test.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "3.5"
+    },
+    {
+      "description": "DRAM, HBM, and NAND are installed as system memory, accelerator memory, and local storage in servers.",
+      "direction": "downstream",
+      "from_node": "3.3",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Bumping, redistribution, plating, molding, and related packaging process tools are used inside OSAT lines.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "2.2"
+    },
+    {
+      "description": "Package test, burn-in, and inspection are required to ship advanced packaged devices.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "2.3"
+    },
+    {
+      "description": "Memory die, including HBM stacks and NAND/DRAM components, enter OSAT lines for stacking, packaging, and final test.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "feeds_into",
+      "to_node": "3.3"
+    },
+    {
+      "description": "ABF, interposer, and package-substrate availability can rate-limit advanced packaging output.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "constrains",
+      "to_node": "4.2"
+    },
+    {
+      "description": "Underfills, mold compounds, solder balls, microbumps, copper pillars, and die-attach materials are consumed in advanced packaging.",
+      "direction": "upstream",
+      "from_node": "3.5",
+      "relationship": "feeds_into",
+      "to_node": "4.3"
+    },
+    {
+      "description": "2.5D/3D packaging, interposers, bumping, and final assembly are required to ship AI accelerators.",
+      "direction": "downstream",
+      "from_node": "3.5",
+      "relationship": "enables",
+      "to_node": "3.1"
+    },
+    {
+      "description": "ABF, interposer, and package-substrate availability can rate-limit advanced packaging output.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "constrains",
+      "to_node": "3.5"
+    },
+    {
+      "description": "High-layer PCBs and substrates form server motherboards, accelerator carrier boards, and baseboards.",
+      "direction": "downstream",
+      "from_node": "4.2",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Underfills, mold compounds, solder balls, microbumps, copper pillars, and die-attach materials are consumed in advanced packaging.",
+      "direction": "downstream",
+      "from_node": "4.3",
+      "relationship": "feeds_into",
+      "to_node": "3.5"
+    },
+    {
+      "description": "TIMs, solders, and interface materials are used when integrating processors and cold plates into servers.",
+      "direction": "downstream",
+      "from_node": "4.3",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "GPUs and custom AI accelerators are integrated as the primary acceleration modules in server platforms.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "3.1"
+    },
+    {
+      "description": "DRAM, HBM, and NAND are installed as system memory, accelerator memory, and local storage in servers.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "3.3"
+    },
+    {
+      "description": "High-layer PCBs and substrates form server motherboards, accelerator carrier boards, and baseboards.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "4.2"
+    },
+    {
+      "description": "TIMs, solders, and interface materials are used when integrating processors and cold plates into servers.",
+      "direction": "upstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "4.3"
+    },
+    {
+      "description": "Integrated compute servers and GPU racks are the hardware substrate of cloud and AI compute instances.",
+      "direction": "downstream",
+      "from_node": "5.1",
+      "relationship": "feeds_into",
+      "to_node": "9.3"
+    },
+    {
+      "description": "Powered space, cooling, and physical datacenter capacity host cloud and AI compute service platforms.",
+      "direction": "downstream",
+      "from_node": "6.1",
+      "relationship": "feeds_into",
+      "to_node": "9.3"
+    },
+    {
+      "description": "Integrated compute servers and GPU racks are the hardware substrate of cloud and AI compute instances.",
+      "direction": "upstream",
+      "from_node": "9.3",
+      "relationship": "feeds_into",
+      "to_node": "5.1"
+    },
+    {
+      "description": "Powered space, cooling, and physical datacenter capacity host cloud and AI compute service platforms.",
+      "direction": "upstream",
+      "from_node": "9.3",
+      "relationship": "feeds_into",
+      "to_node": "6.1"
+    }
+  ],
+  "node_count": 11,
+  "nodes": {
+    "2.1": {
+      "companies": [
+        {
+          "country": "NL",
+          "exchange": "NASDAQ",
+          "name": "ASML Holding N.V.",
+          "ticker": "ASML"
+        }
+      ],
+      "description": "DUV and EUV exposure systems plus subsystem chain: light sources, optics, masks/pellicles, stages, overlay/alignment, and high-NA evolution. Most concentrated, capex-intensive chokepoint at advanced nodes.",
+      "layer_id": "2",
+      "layer_name": "Semiconductor Equipment & Manufacturing Materials",
+      "name": "Lithography equipment",
+      "node_id": "2.1"
+    },
+    "2.2": {
+      "companies": [
+        {
+          "country": "JP",
+          "exchange": "TSE",
+          "name": "Tokyo Electron",
+          "ticker": "8035.T"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Applied Materials, Inc.",
+          "ticker": "AMAT"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Lam Research Corporation",
+          "ticker": "LRCX"
+        }
+      ],
+      "description": "CVD/ALD/PVD, plasma etch, implantation, RTP/anneal, CMP tools, epitaxy, furnaces. Creates and patterns every device layer; cycles with node transitions and capacity adds.",
+      "layer_id": "2",
+      "layer_name": "Semiconductor Equipment & Manufacturing Materials",
+      "name": "Deposition, etch, and process equipment",
+      "node_id": "2.2"
+    },
+    "2.3": {
+      "companies": [
+        {
+          "country": "JP",
+          "exchange": "TSE",
+          "name": "Tokyo Electron",
+          "ticker": "8035.T"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Applied Materials, Inc.",
+          "ticker": "AMAT"
+        },
+        {
+          "country": "NL",
+          "exchange": "NASDAQ",
+          "name": "ASML Holding N.V.",
+          "ticker": "ASML"
+        }
+      ],
+      "description": "Wafer probe/sort, package test, burn-in, AOI, e-beam/optical inspection, CD/overlay metrology, defect inspection, film composition, electrical characterization. Tracks volume and yield-learning velocity.",
+      "layer_id": "2",
+      "layer_name": "Semiconductor Equipment & Manufacturing Materials",
+      "name": "Test, metrology, and inspection equipment",
+      "node_id": "2.3"
+    },
+    "3.1": {
+      "companies": [
+        {
+          "country": "KR",
+          "exchange": "KSE",
+          "name": "Samsung Electronics Co., Ltd.",
+          "ticker": "005930.KS"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Microsoft Corporation",
+          "ticker": "MSFT"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "NVIDIA Corporation",
+          "ticker": "NVDA"
+        }
+      ],
+      "description": "Architectures for matrix-heavy workloads: discrete GPUs, custom training/inference ASICs, FPGA acceleration, wafer-scale approaches. Primary driver of leading-edge wafers and advanced packaging.",
+      "layer_id": "3",
+      "layer_name": "Chip Design & Semiconductor Manufacturing",
+      "name": "AI accelerator and GPU design",
+      "node_id": "3.1"
+    },
+    "3.3": {
+      "companies": [
+        {
+          "country": "KR",
+          "exchange": "KSE",
+          "name": "SK Hynix Inc.",
+          "ticker": "000660.KS"
+        },
+        {
+          "country": "KR",
+          "exchange": "KSE",
+          "name": "Samsung Electronics Co., Ltd.",
+          "ticker": "005930.KS"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Micron Technology, Inc.",
+          "ticker": "MU"
+        }
+      ],
+      "description": "DRAM for system memory, HBM for accelerator bandwidth, NAND for storage. HBM stacking and packaging complexity often binds accelerator supply.",
+      "layer_id": "3",
+      "layer_name": "Chip Design & Semiconductor Manufacturing",
+      "name": "Memory \u2014 DRAM, HBM, and NAND flash",
+      "node_id": "3.3"
+    },
+    "3.5": {
+      "companies": [
+        {
+          "country": "KR",
+          "exchange": "KSE",
+          "name": "SK Hynix Inc.",
+          "ticker": "000660.KS"
+        },
+        {
+          "country": "KR",
+          "exchange": "KSE",
+          "name": "Samsung Electronics Co., Ltd.",
+          "ticker": "005930.KS"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Micron Technology, Inc.",
+          "ticker": "MU"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Amkor Technology, Inc.",
+          "ticker": "AMKR"
+        },
+        {
+          "country": "TW",
+          "exchange": "NYSE",
+          "name": "ASE Technology Holding Co., Ltd.",
+          "ticker": "ASX"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "GLOBALFOUNDRIES Inc.",
+          "ticker": "GFS"
+        },
+        {
+          "country": "TW",
+          "exchange": "NASDAQ",
+          "name": "ChipMOS TECHNOLOGIES Inc.",
+          "ticker": "IMOS"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Intel Corporation",
+          "ticker": "INTC"
+        }
+      ],
+      "description": "2.5D/3D integration, interposers, chip-on-wafer-on-substrate, fan-out WLP, bumping, pillars, underfill/molding, final test/burn-in. Packaging capacity increasingly binds accelerator supply and yield.",
+      "layer_id": "3",
+      "layer_name": "Chip Design & Semiconductor Manufacturing",
+      "name": "OSAT, advanced packaging, and assembly",
+      "node_id": "3.5"
+    },
+    "4.2": {
+      "companies": [
+        {
+          "country": "TW",
+          "exchange": "NYSE",
+          "name": "ASE Technology Holding Co., Ltd.",
+          "ticker": "ASX"
+        },
+        {
+          "country": "US",
+          "exchange": "NYSE",
+          "name": "Corning Incorporated",
+          "ticker": "GLW"
+        },
+        {
+          "country": "US",
+          "exchange": "NYSE",
+          "name": "Qnity Electronics, Inc.",
+          "ticker": "Q"
+        },
+        {
+          "country": "US",
+          "exchange": "NYSE",
+          "name": "Rogers Corporation",
+          "ticker": "ROG"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Sanmina Corporation",
+          "ticker": "SANM"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "TTM Technologies, Inc.",
+          "ticker": "TTMI"
+        },
+        {
+          "country": "KR",
+          "exchange": "KSC",
+          "name": "Samsung Electro-Mechanics Co., Ltd.",
+          "ticker": "009150.KS"
+        },
+        {
+          "country": "KR",
+          "exchange": "KSC",
+          "name": "LG Innotek Co., Ltd.",
+          "ticker": "011070.KS"
+        }
+      ],
+      "description": "High-layer server PCBs, HDI, flexible/rigid-flex, organic build-up substrates (ABF), emerging glass substrates. Substrate capacity can bind advanced packaging volumes.",
+      "layer_id": "4",
+      "layer_name": "Passive Components, Substrates & Board-Level Supply Chain",
+      "name": "Printed circuit boards and advanced packaging substrates",
+      "node_id": "4.2"
+    },
+    "4.3": {
+      "companies": [
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "CPS Technologies Corporation",
+          "ticker": "CPSH"
+        },
+        {
+          "country": "US",
+          "exchange": "NYSE",
+          "name": "Element Solutions Inc",
+          "ticker": "ESI"
+        },
+        {
+          "country": "US",
+          "exchange": "NYSE",
+          "name": "Materion Corporation",
+          "ticker": "MTRN"
+        },
+        {
+          "country": "US",
+          "exchange": "NYSE",
+          "name": "Qnity Electronics, Inc.",
+          "ticker": "Q"
+        },
+        {
+          "country": "US",
+          "exchange": "NYSE",
+          "name": "Rogers Corporation",
+          "ticker": "ROG"
+        },
+        {
+          "country": "KR",
+          "exchange": "KSC",
+          "name": "Samsung SDI Co., Ltd.",
+          "ticker": "006400.KS"
+        },
+        {
+          "country": "KR",
+          "exchange": "KSC",
+          "name": "Hansol Chemical Co., Ltd.",
+          "ticker": "014680.KS"
+        },
+        {
+          "country": "TW",
+          "exchange": "TAI",
+          "name": "Jentech Precision Industrial Co., Ltd",
+          "ticker": "3653.TW"
+        }
+      ],
+      "description": "Underfills, mold compounds, solder balls/microbumps, copper pillars, TIMs, die-attach, encapsulants, epoxies. Qualification-locked materials constrain ramp speed and yield.",
+      "layer_id": "4",
+      "layer_name": "Passive Components, Substrates & Board-Level Supply Chain",
+      "name": "Packaging and thermal interface materials",
+      "node_id": "4.3"
+    },
+    "5.1": {
+      "companies": [
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "NVIDIA Corporation",
+          "ticker": "NVDA"
+        }
+      ],
+      "description": "System architecture/integration: boards, accelerator modules, interconnect topology, cooling integration, PSU specification, firmware/BMC, rack-scale design. Converts components into deployable compute.",
+      "layer_id": "5",
+      "layer_name": "Hardware Systems, Storage & Integration",
+      "name": "Server and compute platform design",
+      "node_id": "5.1"
+    },
+    "6.1": {
+      "companies": [
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Microsoft Corporation",
+          "ticker": "MSFT"
+        }
+      ],
+      "description": "Develop/own/operate facilities: powered shells, leased capacity, wholesale/retail colocation, purpose-built AI campuses, edge operators. Real estate + operations layer consuming power, cooling, and connectivity at scale.",
+      "layer_id": "6",
+      "layer_name": "Datacenter Physical Infrastructure",
+      "name": "Datacenter operators and colocation providers",
+      "node_id": "6.1"
+    },
+    "9.3": {
+      "companies": [
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Amazon.com, Inc.",
+          "ticker": "AMZN"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Alphabet Inc.",
+          "ticker": "GOOGL"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "Microsoft Corporation",
+          "ticker": "MSFT"
+        },
+        {
+          "country": "US",
+          "exchange": "NASDAQ",
+          "name": "NVIDIA Corporation",
+          "ticker": "NVDA"
+        }
+      ],
+      "description": "GPU/accelerator instances, dedicated GPU clouds, HPC-as-a-service, sovereign clouds. Aggregates infrastructure demand and sets compute pricing.",
+      "layer_id": "9",
+      "layer_name": "Base Software, AI Compute Platforms & Training Infrastructure",
+      "name": "Cloud and AI compute-as-a-service platforms",
+      "node_id": "9.3"
+    }
+  },
+  "required_nodes": [
+    "3.3",
+    "3.1",
+    "3.5",
+    "4.2",
+    "4.3",
+    "2.1",
+    "2.2",
+    "2.3",
+    "5.1",
+    "6.1",
+    "9.3"
+  ],
+  "scope": "Samsung HBM4 yield parity catalyst neighborhood",
+  "ticker_to_nodes": {
+    "000660.KS": [
+      "3.3",
+      "3.5"
+    ],
+    "005930.KS": [
+      "3.3",
+      "3.1",
+      "3.5"
+    ],
+    "006400.KS": [
+      "4.3"
+    ],
+    "009150.KS": [
+      "4.2"
+    ],
+    "011070.KS": [
+      "4.2"
+    ],
+    "014680.KS": [
+      "4.3"
+    ],
+    "3653.TW": [
+      "4.3"
+    ],
+    "8035.T": [
+      "2.2",
+      "2.3"
+    ],
+    "AMAT": [
+      "2.2",
+      "2.3"
+    ],
+    "AMKR": [
+      "3.5"
+    ],
+    "AMZN": [
+      "3.1",
+      "5.1",
+      "6.1",
+      "9.3"
+    ],
+    "ASML": [
+      "2.1",
+      "2.3"
+    ],
+    "ASX": [
+      "3.5",
+      "4.2"
+    ],
+    "CPSH": [
+      "4.3"
+    ],
+    "ESI": [
+      "4.3"
+    ],
+    "GFS": [
+      "3.5"
+    ],
+    "GLW": [
+      "4.2"
+    ],
+    "GOOGL": [
+      "3.1",
+      "6.1",
+      "9.3"
+    ],
+    "IMOS": [
+      "3.5"
+    ],
+    "INTC": [
+      "3.5"
+    ],
+    "LRCX": [
+      "2.2"
+    ],
+    "MSFT": [
+      "3.1",
+      "6.1",
+      "9.3"
+    ],
+    "MTRN": [
+      "4.3"
+    ],
+    "MU": [
+      "3.3",
+      "3.5"
+    ],
+    "NVDA": [
+      "3.1",
+      "5.1",
+      "9.3"
+    ],
+    "Q": [
+      "4.2",
+      "4.3"
+    ],
+    "ROG": [
+      "4.2",
+      "4.3"
+    ],
+    "SANM": [
+      "4.2"
+    ],
+    "TTMI": [
+      "4.2"
+    ]
+  }
+}

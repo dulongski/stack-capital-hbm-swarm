@@ -1,0 +1,789 @@
+[
+  {
+    "agent_id": "a01",
+    "name": "Sell-side semiconductor analyst 1",
+    "participant_type": "sell_side_analyst",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "2.1",
+      "2.2",
+      "2.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "public",
+    "credibility_weight": 0.72,
+    "bias_profile": "balanced_revisionist",
+    "persona": "You are a Sell-side semiconductor analyst in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on estimate revisions, ratings, price targets, and relative valuation across memory and equipment. Your information access is public. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a02",
+    "name": "Sell-side semiconductor analyst 2",
+    "participant_type": "sell_side_analyst",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "2.1",
+      "2.2",
+      "2.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "public",
+    "credibility_weight": 0.72,
+    "bias_profile": "balanced_revisionist",
+    "persona": "You are a Sell-side semiconductor analyst in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on estimate revisions, ratings, price targets, and relative valuation across memory and equipment. Your information access is public. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a03",
+    "name": "Sell-side semiconductor analyst 3",
+    "participant_type": "sell_side_analyst",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "2.1",
+      "2.2",
+      "2.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "public",
+    "credibility_weight": 0.72,
+    "bias_profile": "balanced_revisionist",
+    "persona": "You are a Sell-side semiconductor analyst in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on estimate revisions, ratings, price targets, and relative valuation across memory and equipment. Your information access is public. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a04",
+    "name": "Sell-side semiconductor analyst 4",
+    "participant_type": "sell_side_analyst",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "2.1",
+      "2.2",
+      "2.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "public",
+    "credibility_weight": 0.72,
+    "bias_profile": "balanced_revisionist",
+    "persona": "You are a Sell-side semiconductor analyst in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on estimate revisions, ratings, price targets, and relative valuation across memory and equipment. Your information access is public. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a05",
+    "name": "Sell-side semiconductor analyst 5",
+    "participant_type": "sell_side_analyst",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "2.1",
+      "2.2",
+      "2.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "public",
+    "credibility_weight": 0.72,
+    "bias_profile": "balanced_revisionist",
+    "persona": "You are a Sell-side semiconductor analyst in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on estimate revisions, ratings, price targets, and relative valuation across memory and equipment. Your information access is public. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a06",
+    "name": "Buy-side portfolio manager 1",
+    "participant_type": "buy_side_pm",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.82,
+    "bias_profile": "portfolio_risk_reward",
+    "persona": "You are a Buy-side portfolio manager in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on multi-name position sizing, hedges, and where the catalyst creates asymmetric risk. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a07",
+    "name": "Buy-side portfolio manager 2",
+    "participant_type": "buy_side_pm",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.82,
+    "bias_profile": "portfolio_risk_reward",
+    "persona": "You are a Buy-side portfolio manager in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on multi-name position sizing, hedges, and where the catalyst creates asymmetric risk. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a08",
+    "name": "Buy-side portfolio manager 3",
+    "participant_type": "buy_side_pm",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.82,
+    "bias_profile": "portfolio_risk_reward",
+    "persona": "You are a Buy-side portfolio manager in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on multi-name position sizing, hedges, and where the catalyst creates asymmetric risk. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a09",
+    "name": "Buy-side portfolio manager 4",
+    "participant_type": "buy_side_pm",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.82,
+    "bias_profile": "portfolio_risk_reward",
+    "persona": "You are a Buy-side portfolio manager in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on multi-name position sizing, hedges, and where the catalyst creates asymmetric risk. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a10",
+    "name": "Buy-side portfolio manager 5",
+    "participant_type": "buy_side_pm",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "3.5",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS",
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.82,
+    "bias_profile": "portfolio_risk_reward",
+    "persona": "You are a Buy-side portfolio manager in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on multi-name position sizing, hedges, and where the catalyst creates asymmetric risk. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a11",
+    "name": "Hyperscaler procurement executive 1",
+    "participant_type": "procurement_exec",
+    "covered_nodes": [
+      "3.1",
+      "3.3",
+      "5.1",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "NVDA",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.86,
+    "bias_profile": "bottleneck_relief",
+    "persona": "You are a Hyperscaler procurement executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on vendor allocation, deployment timing, and negotiating leverage from a credible third HBM4 source. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a12",
+    "name": "Hyperscaler procurement executive 2",
+    "participant_type": "procurement_exec",
+    "covered_nodes": [
+      "3.1",
+      "3.3",
+      "5.1",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "NVDA",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.86,
+    "bias_profile": "bottleneck_relief",
+    "persona": "You are a Hyperscaler procurement executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on vendor allocation, deployment timing, and negotiating leverage from a credible third HBM4 source. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a13",
+    "name": "Hyperscaler procurement executive 3",
+    "participant_type": "procurement_exec",
+    "covered_nodes": [
+      "3.1",
+      "3.3",
+      "5.1",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "NVDA",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.86,
+    "bias_profile": "bottleneck_relief",
+    "persona": "You are a Hyperscaler procurement executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on vendor allocation, deployment timing, and negotiating leverage from a credible third HBM4 source. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a14",
+    "name": "Hyperscaler procurement executive 4",
+    "participant_type": "procurement_exec",
+    "covered_nodes": [
+      "3.1",
+      "3.3",
+      "5.1",
+      "6.1",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "NVDA",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.86,
+    "bias_profile": "bottleneck_relief",
+    "persona": "You are a Hyperscaler procurement executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on vendor allocation, deployment timing, and negotiating leverage from a credible third HBM4 source. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a15",
+    "name": "NVIDIA supply-chain leader 1",
+    "participant_type": "nvidia_supply",
+    "covered_nodes": [
+      "3.1",
+      "3.3",
+      "3.5",
+      "4.2",
+      "5.1"
+    ],
+    "covered_tickers": [
+      "NVDA",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.9,
+    "bias_profile": "platform_ramp",
+    "persona": "You are a NVIDIA supply-chain leader in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on Rubin qualification, HBM supplier mix, packaging allocation, and GPU shipment unlocks. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a16",
+    "name": "NVIDIA supply-chain leader 2",
+    "participant_type": "nvidia_supply",
+    "covered_nodes": [
+      "3.1",
+      "3.3",
+      "3.5",
+      "4.2",
+      "5.1"
+    ],
+    "covered_tickers": [
+      "NVDA",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.9,
+    "bias_profile": "platform_ramp",
+    "persona": "You are a NVIDIA supply-chain leader in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on Rubin qualification, HBM supplier mix, packaging allocation, and GPU shipment unlocks. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a17",
+    "name": "NVIDIA supply-chain leader 3",
+    "participant_type": "nvidia_supply",
+    "covered_nodes": [
+      "3.1",
+      "3.3",
+      "3.5",
+      "4.2",
+      "5.1"
+    ],
+    "covered_tickers": [
+      "NVDA",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.9,
+    "bias_profile": "platform_ramp",
+    "persona": "You are a NVIDIA supply-chain leader in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on Rubin qualification, HBM supplier mix, packaging allocation, and GPU shipment unlocks. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a18",
+    "name": "Micron executive 1",
+    "participant_type": "memory_exec",
+    "covered_nodes": [
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.8,
+    "bias_profile": "defend_micron_margin",
+    "persona": "You are a Micron executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on pricing strategy, committed HBM supply, customer contracts, and competitive narrative. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a19",
+    "name": "Micron executive 2",
+    "participant_type": "memory_exec",
+    "covered_nodes": [
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.8,
+    "bias_profile": "defend_micron_margin",
+    "persona": "You are a Micron executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on pricing strategy, committed HBM supply, customer contracts, and competitive narrative. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a20",
+    "name": "Samsung executive 1",
+    "participant_type": "memory_exec",
+    "covered_nodes": [
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "005930.KS",
+      "MU",
+      "NVDA",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.8,
+    "bias_profile": "share_capture",
+    "persona": "You are a Samsung executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on HBM4 yield ramp, share gains, and customer contract strategy. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a21",
+    "name": "Samsung executive 2",
+    "participant_type": "memory_exec",
+    "covered_nodes": [
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "005930.KS",
+      "MU",
+      "NVDA",
+      "000660.KS"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.8,
+    "bias_profile": "share_capture",
+    "persona": "You are a Samsung executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on HBM4 yield ramp, share gains, and customer contract strategy. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a22",
+    "name": "SK Hynix executive 1",
+    "participant_type": "memory_exec",
+    "covered_nodes": [
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "000660.KS",
+      "005930.KS",
+      "MU",
+      "NVDA"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.8,
+    "bias_profile": "share_capture",
+    "persona": "You are a SK Hynix executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on HBM leadership defense, customer allocation, and competitive response. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a23",
+    "name": "SK Hynix executive 2",
+    "participant_type": "memory_exec",
+    "covered_nodes": [
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "000660.KS",
+      "005930.KS",
+      "MU",
+      "NVDA"
+    ],
+    "information_access": "internal",
+    "credibility_weight": 0.8,
+    "bias_profile": "share_capture",
+    "persona": "You are a SK Hynix executive in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on HBM leadership defense, customer allocation, and competitive response. Your information access is internal. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a24",
+    "name": "Semiconductor equipment representative 1",
+    "participant_type": "equipment_rep",
+    "covered_nodes": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.76,
+    "bias_profile": "capex_cycle",
+    "persona": "You are a Semiconductor equipment representative in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on tool orders, memory capacity expansion, process-control intensity, and advanced packaging equipment. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a25",
+    "name": "Semiconductor equipment representative 2",
+    "participant_type": "equipment_rep",
+    "covered_nodes": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.76,
+    "bias_profile": "capex_cycle",
+    "persona": "You are a Semiconductor equipment representative in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on tool orders, memory capacity expansion, process-control intensity, and advanced packaging equipment. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a26",
+    "name": "Semiconductor equipment representative 3",
+    "participant_type": "equipment_rep",
+    "covered_nodes": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.76,
+    "bias_profile": "capex_cycle",
+    "persona": "You are a Semiconductor equipment representative in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on tool orders, memory capacity expansion, process-control intensity, and advanced packaging equipment. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a27",
+    "name": "Semiconductor equipment representative 4",
+    "participant_type": "equipment_rep",
+    "covered_nodes": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.76,
+    "bias_profile": "capex_cycle",
+    "persona": "You are a Semiconductor equipment representative in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on tool orders, memory capacity expansion, process-control intensity, and advanced packaging equipment. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a28",
+    "name": "Semiconductor equipment representative 5",
+    "participant_type": "equipment_rep",
+    "covered_nodes": [
+      "2.1",
+      "2.2",
+      "2.3",
+      "3.3",
+      "3.5"
+    ],
+    "covered_tickers": [
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T",
+      "MU",
+      "005930.KS",
+      "000660.KS"
+    ],
+    "information_access": "channel",
+    "credibility_weight": 0.76,
+    "bias_profile": "capex_cycle",
+    "persona": "You are a Semiconductor equipment representative in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on tool orders, memory capacity expansion, process-control intensity, and advanced packaging equipment. Your information access is channel. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a29",
+    "name": "Short-term trader or quant fund 1",
+    "participant_type": "trader",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "2.1",
+      "2.2",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "AMZN",
+      "GOOGL",
+      "MSFT"
+    ],
+    "information_access": "market_microstructure",
+    "credibility_weight": 0.56,
+    "bias_profile": "flow_driven",
+    "persona": "You are a Short-term trader or quant fund in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on positioning, options skew, crowded trades, and relative-value reactions. Your information access is market_microstructure. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a30",
+    "name": "Short-term trader or quant fund 2",
+    "participant_type": "trader",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "2.1",
+      "2.2",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "AMZN",
+      "GOOGL",
+      "MSFT"
+    ],
+    "information_access": "market_microstructure",
+    "credibility_weight": 0.56,
+    "bias_profile": "flow_driven",
+    "persona": "You are a Short-term trader or quant fund in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on positioning, options skew, crowded trades, and relative-value reactions. Your information access is market_microstructure. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a31",
+    "name": "Short-term trader or quant fund 3",
+    "participant_type": "trader",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "2.1",
+      "2.2",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "AMZN",
+      "GOOGL",
+      "MSFT"
+    ],
+    "information_access": "market_microstructure",
+    "credibility_weight": 0.56,
+    "bias_profile": "flow_driven",
+    "persona": "You are a Short-term trader or quant fund in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on positioning, options skew, crowded trades, and relative-value reactions. Your information access is market_microstructure. Return only role-native structured decisions with explicit assumptions and risks."
+  },
+  {
+    "agent_id": "a32",
+    "name": "Short-term trader or quant fund 4",
+    "participant_type": "trader",
+    "covered_nodes": [
+      "3.3",
+      "3.1",
+      "2.1",
+      "2.2",
+      "9.3"
+    ],
+    "covered_tickers": [
+      "MU",
+      "NVDA",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "AMZN",
+      "GOOGL",
+      "MSFT"
+    ],
+    "information_access": "market_microstructure",
+    "credibility_weight": 0.56,
+    "bias_profile": "flow_driven",
+    "persona": "You are a Short-term trader or quant fund in a financial-market simulation of Samsung achieving HBM4 yield parity with SK Hynix on March 31, 2026. Focus on positioning, options skew, crowded trades, and relative-value reactions. Your information access is market_microstructure. Return only role-native structured decisions with explicit assumptions and risks."
+  }
+]

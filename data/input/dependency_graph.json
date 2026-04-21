@@ -1,0 +1,3815 @@
+{
+  "generated_at": "2026-03-04T21:39:14Z",
+  "node_count": 87,
+  "edge_count": 544,
+  "edges": [
+    {
+      "from_node": "1.1",
+      "to_node": "1.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Copper concentrate is sold under offtake into smelters/refiners for conversion into blister, anode, and cathode."
+    },
+    {
+      "from_node": "1.10A",
+      "to_node": "1.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Bulk oxygen and industrial gases are consumed in copper smelting and refining operations."
+    },
+    {
+      "from_node": "1.10A",
+      "to_node": "2.7",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Bulk O2/N2/Ar supply is piped or bulk-delivered into fab utility and subfab infrastructure."
+    },
+    {
+      "from_node": "1.10B",
+      "to_node": "2.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Ultra-high-purity gases and dopant mixtures are blended into semiconductor process consumables."
+    },
+    {
+      "from_node": "1.11",
+      "to_node": "2.7",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Concrete, structural steel, aluminum, rebar, and coatings are consumed in fab shells, cleanrooms, and utility plants."
+    },
+    {
+      "from_node": "1.11",
+      "to_node": "6.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Concrete, rebar, structural steel, and aggregates are consumed in datacenter campus construction."
+    },
+    {
+      "from_node": "1.11",
+      "to_node": "7.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Reactor buildings and nuclear balance-of-plant civil works consume large volumes of concrete and structural steel."
+    },
+    {
+      "from_node": "1.11",
+      "to_node": "7.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Steel, concrete, and structural materials are consumed in substations, towers, foundations, and other grid assets."
+    },
+    {
+      "from_node": "1.12",
+      "to_node": "6.2A",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Dielectric coolants, fluoropolymer hoses/seals, and specialty fluids are used in chip-side liquid or immersion cooling."
+    },
+    {
+      "from_node": "1.12",
+      "to_node": "6.2B",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CDUs and loop-separation systems use specialty working fluids, filtration chemistry, and fluoropolymer wetted materials."
+    },
+    {
+      "from_node": "1.12",
+      "to_node": "6.2C",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Chillers and heat rejection plants consume refrigerants, heat-transfer fluids, seals, and specialty chemistry."
+    },
+    {
+      "from_node": "1.13",
+      "to_node": "2.7",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "Source water, treatment, reuse, and wastewater discharge capacity gate fab utility operation."
+    },
+    {
+      "from_node": "1.13",
+      "to_node": "6.7",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "Raw-water access, treatment/reuse, and discharge permitting gate datacenter siting and cooling design."
+    },
+    {
+      "from_node": "1.13",
+      "to_node": "7.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Thermal nuclear plants consume cooling and process water during operation."
+    },
+    {
+      "from_node": "1.13",
+      "to_node": "7.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Gas-fired generation and CHP plants consume cooling and process water."
+    },
+    {
+      "from_node": "1.13",
+      "to_node": "7.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Geothermal projects depend on water systems for reservoir management and plant operation."
+    },
+    {
+      "from_node": "1.2",
+      "to_node": "1.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Copper concentrate is sold under offtake into smelters/refiners for conversion into blister, anode, and cathode."
+    },
+    {
+      "from_node": "1.2",
+      "to_node": "1.10A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Bulk oxygen and industrial gases are consumed in copper smelting and refining operations."
+    },
+    {
+      "from_node": "1.2",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Refined copper cathode is converted into rod, wire, busbar, tube, and foil products used downstream."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "1.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Refined copper cathode is converted into rod, wire, busbar, tube, and foil products used downstream."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Copper foil and conductive stock are embodied in multilayer PCBs and advanced packaging substrates."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "4.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Copper inputs are used in copper pillars, heat spreaders, and other packaging/thermal materials."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Copper conductors and busbars are used in cables, harnesses, backplanes, and high-current internal interconnects."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "6.3A",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Transformer makers consume copper windings and busbar stock for HV/MV and step-down transformers."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "6.3D",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Copper busway, conductors, and internal distribution stock are used in PDUs, RPPs, panelboards, and metering paths."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "6.9",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rack-level 48V distribution uses copper busbars, blind-mate power conductors, and vertical distribution elements."
+    },
+    {
+      "from_node": "1.3",
+      "to_node": "7.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Copper conductor, busbar, and winding wire consumed in transmission lines, substations, and grid-scale transformers"
+    },
+    {
+      "from_node": "1.4",
+      "to_node": "6.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Lithium-bearing feedstock is embodied in site BESS, rack batteries, and other onsite backup storage assets."
+    },
+    {
+      "from_node": "1.5",
+      "to_node": "6.2C",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Permanent-magnet materials are used in high-efficiency fan, pump, and compressor motors in heat rejection plants."
+    },
+    {
+      "from_node": "1.5",
+      "to_node": "7.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Nd/Pr permanent magnets are used in wind turbine generators and other renewable-power equipment."
+    },
+    {
+      "from_node": "1.6",
+      "to_node": "7.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Uranium conversion, enrichment, and fuel fabrication deliver fuel assemblies to operating reactors."
+    },
+    {
+      "from_node": "1.6",
+      "to_node": "7.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Fuel-cycle services provide the enriched fuel supply required by new-build and advanced nuclear reactors."
+    },
+    {
+      "from_node": "1.7",
+      "to_node": "2.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Specialty metals and mineral inputs become plating chemistries, metal-bearing precursors, and other semiconductor consumables."
+    },
+    {
+      "from_node": "1.7",
+      "to_node": "3.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Gallium and related specialty mineral inputs are required for GaN/SiC substrate and epitaxy supply chains."
+    },
+    {
+      "from_node": "1.7",
+      "to_node": "4.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Tantalum, nickel, silver, tin, and related inputs are embodied in capacitors, resistors, ferrites, and other passives."
+    },
+    {
+      "from_node": "1.7",
+      "to_node": "8.1B",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "III–V and detector-material inputs are used in lasers, modulators, photodetectors, and photonic integrated circuits."
+    },
+    {
+      "from_node": "1.8A",
+      "to_node": "1.8B",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Polysilicon feedstock is converted into monocrystalline ingots and sliced/polished semiconductor wafers."
+    },
+    {
+      "from_node": "1.8A",
+      "to_node": "7.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Polysilicon feedstock is embodied in solar modules deployed across renewable generation projects."
+    },
+    {
+      "from_node": "1.8B",
+      "to_node": "1.8A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Polysilicon feedstock is converted into monocrystalline ingots and sliced/polished semiconductor wafers."
+    },
+    {
+      "from_node": "1.8B",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Semiconductor-grade wafers are supplied into DRAM, HBM, and NAND fabrication lines."
+    },
+    {
+      "from_node": "1.8B",
+      "to_node": "3.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Polished starting wafers are the direct silicon input to foundry wafer fabrication."
+    },
+    {
+      "from_node": "1.8B",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Silicon wafers are the starting substrate for PMICs, control ICs, and silicon power devices."
+    },
+    {
+      "from_node": "1.9",
+      "to_node": "6.3A",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "GOES and specialty transformer-core materials rate-limit datacenter transformer manufacturing lead times."
+    },
+    {
+      "from_node": "1.9",
+      "to_node": "7.6",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "Transformer-core alloy availability gates transmission and substation transformer buildout across the grid."
+    },
+    {
+      "from_node": "2.1",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Lithography toolsets are required for DRAM/NAND/HBM patterning and memory-layer scaling."
+    },
+    {
+      "from_node": "2.1",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "DUV/EUV lithography systems are required for foundry process flows and logic-node migration."
+    },
+    {
+      "from_node": "2.1",
+      "to_node": "3.6",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Lithography capability is required to fabricate PMICs, controllers, and silicon power devices."
+    },
+    {
+      "from_node": "2.1",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Lithography capability is needed for silicon photonics and III–V device patterning."
+    },
+    {
+      "from_node": "2.2",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Process-tool chains are required for memory cell formation, pattern transfer, and BEOL integration."
+    },
+    {
+      "from_node": "2.2",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Deposition, etch, implantation, anneal, CMP, and related tools are used on every major foundry wafer layer."
+    },
+    {
+      "from_node": "2.2",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Bumping, redistribution, plating, molding, and related packaging process tools are used inside OSAT lines."
+    },
+    {
+      "from_node": "2.2",
+      "to_node": "3.6",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Process equipment is required to fabricate PMICs, MOSFETs, GaN/SiC devices, and control ICs."
+    },
+    {
+      "from_node": "2.2",
+      "to_node": "3.8",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Crystal-growth, process, and epitaxy-adjacent equipment is used in SiC/GaN substrate and epi production."
+    },
+    {
+      "from_node": "2.2",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Deposition/etch/process equipment is required for lasers, modulators, detectors, and PIC fabrication."
+    },
+    {
+      "from_node": "2.3",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Defect inspection, metrology, and electrical test are required for memory yield management and binning."
+    },
+    {
+      "from_node": "2.3",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Inline metrology, inspection, and wafer sort are required for foundry yield learning and production control."
+    },
+    {
+      "from_node": "2.3",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Package test, burn-in, and inspection are required to ship advanced packaged devices."
+    },
+    {
+      "from_node": "2.3",
+      "to_node": "8.5",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Electro-optical alignment, calibration, and high-volume test equipment is required for photonics packaging."
+    },
+    {
+      "from_node": "2.4",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Photomask supply, pellicles, inspection, and repair are needed for memory process iteration and yield ramp."
+    },
+    {
+      "from_node": "2.4",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Mask sets, pellicles, inspection, and repair are needed to expose each foundry tapeout."
+    },
+    {
+      "from_node": "2.4",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Mask-writing and reticle infrastructure is used in photonic and III–V wafer patterning."
+    },
+    {
+      "from_node": "2.5",
+      "to_node": "1.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Specialty metals and mineral inputs become plating chemistries, metal-bearing precursors, and other semiconductor consumables."
+    },
+    {
+      "from_node": "2.5",
+      "to_node": "1.10B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Ultra-high-purity gases and dopant mixtures are blended into semiconductor process consumables."
+    },
+    {
+      "from_node": "2.5",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Resists, slurries, cleans, dopants, and deposition precursors are consumed in memory fabs."
+    },
+    {
+      "from_node": "2.5",
+      "to_node": "3.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Resists, developers, slurries, etchants, cleans, precursors, and plating chemistry are consumed in foundry fabs."
+    },
+    {
+      "from_node": "2.5",
+      "to_node": "3.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Underfills, molds, solder/flux, and assembly chemistries are consumed in advanced packaging lines."
+    },
+    {
+      "from_node": "2.5",
+      "to_node": "3.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Precursor chemistries and specialty materials are used in wide-bandgap substrate and epitaxy processing."
+    },
+    {
+      "from_node": "2.5",
+      "to_node": "8.1B",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "III–V and silicon-photonics fabs consume specialty process chemicals, cleans, and deposition precursors."
+    },
+    {
+      "from_node": "2.6",
+      "to_node": "3.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "RTL-to-GDS, verification, physical design, and timing/signoff flows are required for GPU/ASIC tapeout."
+    },
+    {
+      "from_node": "2.6",
+      "to_node": "3.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "CPU core, cache, interconnect, and SoC design workflows depend on EDA toolchains from architecture through signoff."
+    },
+    {
+      "from_node": "2.6",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Memory-device design, verification, and physical implementation rely on EDA and simulation toolchains."
+    },
+    {
+      "from_node": "2.6",
+      "to_node": "3.6",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Analog, mixed-signal, and power-IC design flows are required for PMIC and power semiconductor development."
+    },
+    {
+      "from_node": "2.6",
+      "to_node": "3.7",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Switch ASIC, DPU/SmartNIC, SerDes, and controller design workflows rely on EDA toolchains."
+    },
+    {
+      "from_node": "2.6",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "PIC/driver co-design, analog simulation, and layout/signoff depend on photonics-capable EDA toolchains."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "1.10A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Bulk O2/N2/Ar supply is piped or bulk-delivered into fab utility and subfab infrastructure."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "1.11",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Concrete, structural steel, aluminum, rebar, and coatings are consumed in fab shells, cleanrooms, and utility plants."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "1.13",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "Source water, treatment, reuse, and wastewater discharge capacity gate fab utility operation."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Fab utilities such as UPW, gas distribution, vacuum, abatement, and contamination control are required for memory production."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "UPW, bulk gas distribution, vacuum, abatement, cleanroom HVAC, and chemical delivery are required to run a foundry."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Cleanroom utilities, exhaust, and chemical delivery are required for advanced packaging and assembly operations."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "3.6",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Cleanroom and subfab utility infrastructure is required for power-IC and device manufacturing lines."
+    },
+    {
+      "from_node": "2.7",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Cleanroom utilities, gas cabinets, exhaust, and contamination control are required for photonics fabrication."
+    },
+    {
+      "from_node": "2.8",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "MES/APC/FDC and equipment-automation loops coordinate WIP, recipes, and process control across memory fabs."
+    },
+    {
+      "from_node": "2.8",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Factory integration software coordinates tool recipes, dispatch, metrology loops, and yield control in foundries."
+    },
+    {
+      "from_node": "2.8",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Package-line automation, recipe control, and traceability coordinate advanced packaging and test operations."
+    },
+    {
+      "from_node": "2.8",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Factory integration and APC/FDC loops coordinate photonics manufacturing lines."
+    },
+    {
+      "from_node": "2.9",
+      "to_node": "3.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "AMHS, carriers, and stockers move wafers between process steps across large memory fabs."
+    },
+    {
+      "from_node": "2.9",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "FOUP/reticle transport, stockers, and dispatch systems keep wafer lots moving between foundry tools."
+    },
+    {
+      "from_node": "2.9",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Clean wafer/reticle movement and storage systems support photonics fab material logistics."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "2.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "RTL-to-GDS, verification, physical design, and timing/signoff flows are required for GPU/ASIC tapeout."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "3.3",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "HBM stack availability and memory process output directly gate advanced accelerator package volume."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Leading-edge wafer fabrication services are required to turn accelerator designs into manufactured die."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "2.5D/3D packaging, interposers, bumping, and final assembly are required to ship AI accelerators."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "GPUs and custom AI accelerators are integrated as the primary acceleration modules in server platforms."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Packaged accelerators are delivered to EMS lines for board and system assembly."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "9.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Accelerator ISA, memory hierarchy, and interconnect semantics define the driver/compiler/runtime stack."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "On-device NPUs/GPUs and inference accelerators provide local AI execution engines in consumer hardware."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Embedded AI accelerators provide local perception and policy execution in robot compute stacks."
+    },
+    {
+      "from_node": "3.1",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Autonomous compute boards integrate accelerators for perception, planning, and sensor fusion."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "2.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "CPU core, cache, interconnect, and SoC design workflows depend on EDA toolchains from architecture through signoff."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Foundry wafer fabrication is required to manufacture many server CPUs and custom host processors."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Package assembly, bumping, and final test are required to ship CPUs."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CPUs provide host compute, orchestration, and I/O control inside server platforms."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Packaged CPUs are installed by EMS into server boards and systems."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CPU and application-processor cores are the general-purpose compute foundation of AI consumer devices."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "General-purpose processors provide host control and non-accelerator compute in robot controllers."
+    },
+    {
+      "from_node": "3.2",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CPUs/SoCs provide planning, control, and fallback compute in autonomous mobility stacks."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "1.8B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Semiconductor-grade wafers are supplied into DRAM, HBM, and NAND fabrication lines."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Lithography toolsets are required for DRAM/NAND/HBM patterning and memory-layer scaling."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Process-tool chains are required for memory cell formation, pattern transfer, and BEOL integration."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.3",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Defect inspection, metrology, and electrical test are required for memory yield management and binning."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Photomask supply, pellicles, inspection, and repair are needed for memory process iteration and yield ramp."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Resists, slurries, cleans, dopants, and deposition precursors are consumed in memory fabs."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Memory-device design, verification, and physical implementation rely on EDA and simulation toolchains."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.7",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Fab utilities such as UPW, gas distribution, vacuum, abatement, and contamination control are required for memory production."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.8",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "MES/APC/FDC and equipment-automation loops coordinate WIP, recipes, and process control across memory fabs."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "2.9",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "AMHS, carriers, and stockers move wafers between process steps across large memory fabs."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "3.1",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "HBM stack availability and memory process output directly gate advanced accelerator package volume."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "3.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Memory die, including HBM stacks and NAND/DRAM components, enter OSAT lines for stacking, packaging, and final test."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "DRAM, HBM, and NAND are installed as system memory, accelerator memory, and local storage in servers."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Memory devices and flash are loaded onto assembled boards, modules, and storage subsystems."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "5.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "NAND flash and DRAM populate SSDs, storage nodes, and controller memory in storage platforms."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "LPDDR/DRAM/NAND provide working memory and storage in on-device AI hardware."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Memory devices hold model weights, sensor buffers, and local data on robot compute platforms."
+    },
+    {
+      "from_node": "3.3",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Memory devices store maps, models, and sensor histories in autonomous systems."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "1.8B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Polished starting wafers are the direct silicon input to foundry wafer fabrication."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "DUV/EUV lithography systems are required for foundry process flows and logic-node migration."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Deposition, etch, implantation, anneal, CMP, and related tools are used on every major foundry wafer layer."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.3",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Inline metrology, inspection, and wafer sort are required for foundry yield learning and production control."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Mask sets, pellicles, inspection, and repair are needed to expose each foundry tapeout."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Resists, developers, slurries, etchants, cleans, precursors, and plating chemistry are consumed in foundry fabs."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.7",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "UPW, bulk gas distribution, vacuum, abatement, cleanroom HVAC, and chemical delivery are required to run a foundry."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.8",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Factory integration software coordinates tool recipes, dispatch, metrology loops, and yield control in foundries."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "2.9",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "FOUP/reticle transport, stockers, and dispatch systems keep wafer lots moving between foundry tools."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "3.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Leading-edge wafer fabrication services are required to turn accelerator designs into manufactured die."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "3.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Foundry wafer fabrication is required to manufacture many server CPUs and custom host processors."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "3.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Processed wafers and known-good die flow from wafer fabs into OSAT and advanced packaging lines."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "3.6",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Foundry services are used for PMICs, drivers, controllers, and silicon power-management ICs."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "3.7",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Foundry wafer fabrication is required for switch ASICs, DPUs, retimers, optical DSPs, and controllers."
+    },
+    {
+      "from_node": "3.4",
+      "to_node": "8.1B",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Foundry/PIC fabrication capacity is used for silicon photonics and related active optical devices."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "2.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Bumping, redistribution, plating, molding, and related packaging process tools are used inside OSAT lines."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "2.3",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Package test, burn-in, and inspection are required to ship advanced packaged devices."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "2.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Underfills, molds, solder/flux, and assembly chemistries are consumed in advanced packaging lines."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "2.7",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Cleanroom utilities, exhaust, and chemical delivery are required for advanced packaging and assembly operations."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "2.8",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Package-line automation, recipe control, and traceability coordinate advanced packaging and test operations."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Memory die, including HBM stacks and NAND/DRAM components, enter OSAT lines for stacking, packaging, and final test."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "3.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Processed wafers and known-good die flow from wafer fabs into OSAT and advanced packaging lines."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "4.2",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "ABF, interposer, and package-substrate availability can rate-limit advanced packaging output."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "4.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Underfills, mold compounds, solder balls, microbumps, copper pillars, and die-attach materials are consumed in advanced packaging."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "3.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "2.5D/3D packaging, interposers, bumping, and final assembly are required to ship AI accelerators."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "3.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Package assembly, bumping, and final test are required to ship CPUs."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "3.6",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Package assembly and final test are required to ship power semiconductors and VRM products."
+    },
+    {
+      "from_node": "3.5",
+      "to_node": "3.7",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Package assembly and high-speed test are required to ship networking and interconnect silicon."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "1.8B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Silicon wafers are the starting substrate for PMICs, control ICs, and silicon power devices."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "2.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Lithography capability is required to fabricate PMICs, controllers, and silicon power devices."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "2.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Process equipment is required to fabricate PMICs, MOSFETs, GaN/SiC devices, and control ICs."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "2.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Analog, mixed-signal, and power-IC design flows are required for PMIC and power semiconductor development."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "2.7",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Cleanroom and subfab utility infrastructure is required for power-IC and device manufacturing lines."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Foundry services are used for PMICs, drivers, controllers, and silicon power-management ICs."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Package assembly and final test are required to ship power semiconductors and VRM products."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "3.8",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "SiC/GaN substrate and epitaxial-wafer availability gates wide-bandgap device output."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "4.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Inductors, capacitors, and other passives are built into VRMs, converters, and power modules."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Power boards and substrates carry packaged power devices and control circuitry."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "PMICs, VRMs, DC-DC stages, and gate drivers enable high-density server power delivery."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Power-management ICs and VRM modules are mounted during server and device system assembly."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "6.3C",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Power semiconductors populate UPS rectifiers, inverters, static switches, and conditioning stages."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "6.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Inverters, converters, battery interfaces, and generator controls rely on power semiconductors."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "6.9",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rectifier shelves, 48V bus converters, and rack battery systems are built around power semiconductors."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "7.7",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Si/GaN/SiC switching devices power grid converters, STATCOM/SVC systems, and behind-the-meter dispatch hardware."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "PMICs and power stages manage battery charging, thermals, and rail conversion in AI consumer devices."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Motor drives, DC-DC stages, and power-control electronics are core to robot compute platforms."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Sensor rails, compute power stages, and traction-adjacent control electronics depend on power semiconductors."
+    },
+    {
+      "from_node": "3.6",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "VRMs, DC-DC converters, MOSFETs, and power management ICs used on switch, router, and NIC boards"
+    },
+    {
+      "from_node": "3.7",
+      "to_node": "2.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Switch ASIC, DPU/SmartNIC, SerDes, and controller design workflows rely on EDA toolchains."
+    },
+    {
+      "from_node": "3.7",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Foundry wafer fabrication is required for switch ASICs, DPUs, retimers, optical DSPs, and controllers."
+    },
+    {
+      "from_node": "3.7",
+      "to_node": "3.5",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Package assembly and high-speed test are required to ship networking and interconnect silicon."
+    },
+    {
+      "from_node": "3.7",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "NICs, DPUs, retimers, and PCIe/CXL/interconnect silicon are integrated into server platforms."
+    },
+    {
+      "from_node": "3.7",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "NICs, DPUs, controllers, and retimers are assembled into boards and complete systems."
+    },
+    {
+      "from_node": "3.7",
+      "to_node": "8.1C",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Optical DSPs, retimers, and SerDes devices are integrated into transceivers and optical engines."
+    },
+    {
+      "from_node": "3.7",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Switch ASICs, DPUs/SmartNICs, and PHY silicon form the core of networking equipment."
+    },
+    {
+      "from_node": "3.8",
+      "to_node": "1.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Gallium and related specialty mineral inputs are required for GaN/SiC substrate and epitaxy supply chains."
+    },
+    {
+      "from_node": "3.8",
+      "to_node": "2.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Crystal-growth, process, and epitaxy-adjacent equipment is used in SiC/GaN substrate and epi production."
+    },
+    {
+      "from_node": "3.8",
+      "to_node": "2.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Precursor chemistries and specialty materials are used in wide-bandgap substrate and epitaxy processing."
+    },
+    {
+      "from_node": "3.8",
+      "to_node": "3.6",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "SiC/GaN substrate and epitaxial-wafer availability gates wide-bandgap device output."
+    },
+    {
+      "from_node": "4.1",
+      "to_node": "1.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Tantalum, nickel, silver, tin, and related inputs are embodied in capacitors, resistors, ferrites, and other passives."
+    },
+    {
+      "from_node": "4.1",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Inductors, capacitors, and other passives are built into VRMs, converters, and power modules."
+    },
+    {
+      "from_node": "4.1",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Capacitors, inductors, filters, clocks, and resistors populate server motherboards and accelerator carrier boards."
+    },
+    {
+      "from_node": "4.1",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Passive components populate EMS SMT lines during board-level assembly."
+    },
+    {
+      "from_node": "4.1",
+      "to_node": "6.3C",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Filtering, hold-up, control, and switching sections inside UPS equipment consume passives."
+    },
+    {
+      "from_node": "4.1",
+      "to_node": "6.9",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rack power shelves and BBUs contain capacitors, inductors, chokes, and filters."
+    },
+    {
+      "from_node": "4.1",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Passives populate switch/router motherboards, line cards, and power/filter sections."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Copper foil and conductive stock are embodied in multilayer PCBs and advanced packaging substrates."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "3.5",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "ABF, interposer, and package-substrate availability can rate-limit advanced packaging output."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Power boards and substrates carry packaged power devices and control circuitry."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "High-layer PCBs and substrates form server motherboards, accelerator carrier boards, and baseboards."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Fabricated PCBs and substrates are the baseboards assembled by EMS providers."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "5.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Storage controllers, SSDs, and storage nodes are built on multilayer PCB assemblies."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "8.1C",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Substrates and boards carry optics, DSPs, power, and control circuitry inside transceiver modules."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Switch/router boards and line cards depend on advanced multilayer PCB supply."
+    },
+    {
+      "from_node": "4.2",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Device mainboards and interposers depend on advanced PCB and substrate fabrication."
+    },
+    {
+      "from_node": "4.3",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Copper inputs are used in copper pillars, heat spreaders, and other packaging/thermal materials."
+    },
+    {
+      "from_node": "4.3",
+      "to_node": "3.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Underfills, mold compounds, solder balls, microbumps, copper pillars, and die-attach materials are consumed in advanced packaging."
+    },
+    {
+      "from_node": "4.3",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "TIMs, solders, and interface materials are used when integrating processors and cold plates into servers."
+    },
+    {
+      "from_node": "4.3",
+      "to_node": "6.2A",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Thermal interface and sealing materials sit directly between hot chips and liquid-cooling hardware."
+    },
+    {
+      "from_node": "4.3",
+      "to_node": "8.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Epoxies, attach materials, underfills, and thermal compounds are used in photonics packaging and assembly."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Copper conductors and busbars are used in cables, harnesses, backplanes, and high-current internal interconnects."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "8.1A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Drawn fiber and cable stock become optical cabling used in high-speed internal and campus interconnects."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "8.1C",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Pluggable transceivers and active optical links terminate and light fiber interconnects."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "High-speed copper/optical cables, backplanes, harnesses, and power connectors tie server subsystems together."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Cables, connectors, and harnesses are installed during box build and final system integration."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "6.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Structured cabling interfaces and supportable cable/power harnesses are installed across white space."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Pluggable cages, backplane connectors, and internal cabling are integral to network gear."
+    },
+    {
+      "from_node": "4.4",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Edge PoPs and CDN nodes require internal interconnect, pluggables, and power/data cabling."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "3.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "GPUs and custom AI accelerators are integrated as the primary acceleration modules in server platforms."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "3.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CPUs provide host compute, orchestration, and I/O control inside server platforms."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "DRAM, HBM, and NAND are installed as system memory, accelerator memory, and local storage in servers."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "PMICs, VRMs, DC-DC stages, and gate drivers enable high-density server power delivery."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "3.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "NICs, DPUs, retimers, and PCIe/CXL/interconnect silicon are integrated into server platforms."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "4.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Capacitors, inductors, filters, clocks, and resistors populate server motherboards and accelerator carrier boards."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "High-layer PCBs and substrates form server motherboards, accelerator carrier boards, and baseboards."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "4.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "TIMs, solders, and interface materials are used when integrating processors and cold plates into servers."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "High-speed copper/optical cables, backplanes, harnesses, and power connectors tie server subsystems together."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "6.2A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Cold plates, manifolds, quick-disconnects, and immersion hardware are co-designed into high-density server platforms."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "6.9",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rack power shelves, busbars, and blind-mate 48V interfaces define the server power-entry architecture."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "5.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Server/rack system designs, BOMs, firmware targets, and test specs are handed to EMS for manufacturing."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "9.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Server firmware/BMC and hardware platform choices determine the supported OS, virtualization, and orchestration substrate."
+    },
+    {
+      "from_node": "5.1",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Integrated compute servers and GPU racks are the hardware substrate of cloud and AI compute instances."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "3.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Packaged accelerators are delivered to EMS lines for board and system assembly."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "3.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Packaged CPUs are installed by EMS into server boards and systems."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Memory devices and flash are loaded onto assembled boards, modules, and storage subsystems."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Power-management ICs and VRM modules are mounted during server and device system assembly."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "3.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "NICs, DPUs, controllers, and retimers are assembled into boards and complete systems."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "4.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Passive components populate EMS SMT lines during board-level assembly."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Fabricated PCBs and substrates are the baseboards assembled by EMS providers."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Cables, connectors, and harnesses are installed during box build and final system integration."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "5.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Server/rack system designs, BOMs, firmware targets, and test specs are handed to EMS for manufacturing."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "5.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Storage hardware assembly, box build, system test, packaging, and fulfillment are provided by EMS providers."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Assembled server racks, storage nodes, and network hardware are delivered into datacenter deployments."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Assembled edge servers and network appliances populate CDN and edge PoPs."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "OEM/ODM manufacturing assembles AI phones, PCs, tablets, and wearables at scale."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Box-build and electronics assembly deliver robot compute units and control hardware."
+    },
+    {
+      "from_node": "5.2",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "EMS providers assemble autonomous compute modules, ECUs, and sensor-processing hardware."
+    },
+    {
+      "from_node": "5.3",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "NAND flash and DRAM populate SSDs, storage nodes, and controller memory in storage platforms."
+    },
+    {
+      "from_node": "5.3",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Storage controllers, SSDs, and storage nodes are built on multilayer PCB assemblies."
+    },
+    {
+      "from_node": "5.3",
+      "to_node": "5.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Storage hardware assembly, box build, system test, packaging, and fulfillment are provided by EMS providers."
+    },
+    {
+      "from_node": "5.3",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Block, file, and object storage platforms back cloud GPU clusters and training environments."
+    },
+    {
+      "from_node": "5.3",
+      "to_node": "9.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Enterprise SSDs and storage clusters underpin data lakes, warehouses, vector stores, and pipeline staging."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Assembled server racks, storage nodes, and network hardware are delivered into datacenter deployments."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.2A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Liquid-cooling capture hardware is installed in halls to cool deployed AI racks at chip level."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.2B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CDU skids, filtration, and secondary-loop control are deployed as datacenter cooling infrastructure."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.2C",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Chillers, towers/dry coolers, pumps, and plant controls provide campus heat rejection capacity."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.3A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Utility-interconnect and step-down transformers are installed as core datacenter electrical plant."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.3B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Switchgear, breakers, protection, and ATS equipment form the core distribution and transfer backbone."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.3C",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "UPS and static transfer infrastructure provide ride-through and power quality for IT loads."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.3D",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "PDUs, RPPs, busway, and metering distribute conditioned power through the white space."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Generators, BESS, fuel storage, and paralleling controls provide onsite resiliency and backup supply."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.5",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Mission-critical EPC, MEP engineering, and commissioning are required to deliver operational datacenter capacity."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Fire suppression, physical security, DCIM/BMS, leak detection, and environmental monitoring are required for facility operation."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.7",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "Site water access and discharge permitting can limit datacenter siting and operating density."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.8",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Racks, containment, trays, supports, and seismic bracing create deployable white-space capacity."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "6.9",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "48V distribution, rack busbars, blind-mate interfaces, and rack BBUs provide final in-rack power delivery."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "7.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "PPAs, green tariffs, and colocated renewables can supply datacenter power procurement."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "7.6",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "Transmission/substation availability and interconnection queue timing can gate campus energization."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "7.8",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "Utility interconnection timing, tariff design, and available megawatts gate datacenter energization."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Datacenter switching/routing fabric hardware is installed in halls and campus networks."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "8.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Security controls, IAM, DDoS mitigation, SIEM, and zero-trust tooling are required to operate datacenters securely."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "8.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Dark fiber, meet-me rooms, carrier hotels, and metro interconnect provide external connectivity to datacenters."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Powered space, cooling, and physical datacenter capacity host cloud and AI compute service platforms."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "10.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Dedicated campuses and colocation halls host frontier training clusters and supporting infrastructure."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Owned or leased datacenter capacity hosts specialized model training and domain-specific inference clusters."
+    },
+    {
+      "from_node": "6.1",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CDN and edge operators lease or operate datacenter and colo footprints for distributed PoPs."
+    },
+    {
+      "from_node": "6.2A",
+      "to_node": "1.12",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Dielectric coolants, fluoropolymer hoses/seals, and specialty fluids are used in chip-side liquid or immersion cooling."
+    },
+    {
+      "from_node": "6.2A",
+      "to_node": "4.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Thermal interface and sealing materials sit directly between hot chips and liquid-cooling hardware."
+    },
+    {
+      "from_node": "6.2A",
+      "to_node": "6.2B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CDUs and loop-separation hardware circulate conditioned secondary-loop coolant to racks/tanks and extract chip heat."
+    },
+    {
+      "from_node": "6.2A",
+      "to_node": "6.8",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rack/cabinet formats, containment, and support systems physically host liquid manifolds or immersion equipment."
+    },
+    {
+      "from_node": "6.2A",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Cold plates, manifolds, quick-disconnects, and immersion hardware are co-designed into high-density server platforms."
+    },
+    {
+      "from_node": "6.2A",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Liquid-cooling capture hardware is installed in halls to cool deployed AI racks at chip level."
+    },
+    {
+      "from_node": "6.2B",
+      "to_node": "1.12",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CDUs and loop-separation systems use specialty working fluids, filtration chemistry, and fluoropolymer wetted materials."
+    },
+    {
+      "from_node": "6.2B",
+      "to_node": "6.2C",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Chiller/tower/dry-cooler plant capacity rejects heat from CDU primary loops."
+    },
+    {
+      "from_node": "6.2B",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CDU skids, filtration, and secondary-loop control are deployed as datacenter cooling infrastructure."
+    },
+    {
+      "from_node": "6.2B",
+      "to_node": "6.2A",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CDUs and loop-separation hardware circulate conditioned secondary-loop coolant to racks/tanks and extract chip heat."
+    },
+    {
+      "from_node": "6.2C",
+      "to_node": "1.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Permanent-magnet materials are used in high-efficiency fan, pump, and compressor motors in heat rejection plants."
+    },
+    {
+      "from_node": "6.2C",
+      "to_node": "1.12",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Chillers and heat rejection plants consume refrigerants, heat-transfer fluids, seals, and specialty chemistry."
+    },
+    {
+      "from_node": "6.2C",
+      "to_node": "6.7",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "Cooling-water supply, treatment, reuse, and discharge limits heat rejection plant design and throughput."
+    },
+    {
+      "from_node": "6.2C",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Chillers, towers/dry coolers, pumps, and plant controls provide campus heat rejection capacity."
+    },
+    {
+      "from_node": "6.2C",
+      "to_node": "6.2B",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Chiller/tower/dry-cooler plant capacity rejects heat from CDU primary loops."
+    },
+    {
+      "from_node": "6.3A",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Transformer makers consume copper windings and busbar stock for HV/MV and step-down transformers."
+    },
+    {
+      "from_node": "6.3A",
+      "to_node": "1.9",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "GOES and specialty transformer-core materials rate-limit datacenter transformer manufacturing lead times."
+    },
+    {
+      "from_node": "6.3A",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Utility-interconnect and step-down transformers are installed as core datacenter electrical plant."
+    },
+    {
+      "from_node": "6.3A",
+      "to_node": "6.3B",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Incoming utility or generator power passes through step-down transformers before MV/LV switchgear."
+    },
+    {
+      "from_node": "6.3B",
+      "to_node": "6.3A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Incoming utility or generator power passes through step-down transformers before MV/LV switchgear."
+    },
+    {
+      "from_node": "6.3B",
+      "to_node": "6.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Generator, fuel-cell, and BESS output lands on transfer and protection gear as alternate power sources."
+    },
+    {
+      "from_node": "6.3B",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Switchgear, breakers, protection, and ATS equipment form the core distribution and transfer backbone."
+    },
+    {
+      "from_node": "6.3B",
+      "to_node": "6.3C",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Protected switched power feeds UPS and power-quality systems."
+    },
+    {
+      "from_node": "6.3C",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Power semiconductors populate UPS rectifiers, inverters, static switches, and conditioning stages."
+    },
+    {
+      "from_node": "6.3C",
+      "to_node": "4.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Filtering, hold-up, control, and switching sections inside UPS equipment consume passives."
+    },
+    {
+      "from_node": "6.3C",
+      "to_node": "6.3B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Protected switched power feeds UPS and power-quality systems."
+    },
+    {
+      "from_node": "6.3C",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "UPS and static transfer infrastructure provide ride-through and power quality for IT loads."
+    },
+    {
+      "from_node": "6.3C",
+      "to_node": "6.3D",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Conditioned UPS output is handed off to PDUs, RPPs, busway, and branch distribution."
+    },
+    {
+      "from_node": "6.3D",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Copper busway, conductors, and internal distribution stock are used in PDUs, RPPs, panelboards, and metering paths."
+    },
+    {
+      "from_node": "6.3D",
+      "to_node": "6.3C",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Conditioned UPS output is handed off to PDUs, RPPs, busway, and branch distribution."
+    },
+    {
+      "from_node": "6.3D",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "PDUs, RPPs, busway, and metering distribute conditioned power through the white space."
+    },
+    {
+      "from_node": "6.3D",
+      "to_node": "6.9",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Row/rack distribution delivers conditioned power into 48V shelves, busbars, and rack battery interfaces."
+    },
+    {
+      "from_node": "6.4",
+      "to_node": "1.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Lithium-bearing feedstock is embodied in site BESS, rack batteries, and other onsite backup storage assets."
+    },
+    {
+      "from_node": "6.4",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Inverters, converters, battery interfaces, and generator controls rely on power semiconductors."
+    },
+    {
+      "from_node": "6.4",
+      "to_node": "7.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Gas turbine/engine generation packages and related services can be deployed as onsite backup or prime power."
+    },
+    {
+      "from_node": "6.4",
+      "to_node": "7.7",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Microgrid EMS, inverter controls, and dispatch software coordinate onsite BESS and generation assets."
+    },
+    {
+      "from_node": "6.4",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Generators, BESS, fuel storage, and paralleling controls provide onsite resiliency and backup supply."
+    },
+    {
+      "from_node": "6.4",
+      "to_node": "6.3B",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Generator, fuel-cell, and BESS output lands on transfer and protection gear as alternate power sources."
+    },
+    {
+      "from_node": "6.5",
+      "to_node": "1.11",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Concrete, rebar, structural steel, and aggregates are consumed in datacenter campus construction."
+    },
+    {
+      "from_node": "6.5",
+      "to_node": "6.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Mission-critical EPC, MEP engineering, and commissioning are required to deliver operational datacenter capacity."
+    },
+    {
+      "from_node": "6.6",
+      "to_node": "6.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Fire suppression, physical security, DCIM/BMS, leak detection, and environmental monitoring are required for facility operation."
+    },
+    {
+      "from_node": "6.7",
+      "to_node": "1.13",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "Raw-water access, treatment/reuse, and discharge permitting gate datacenter siting and cooling design."
+    },
+    {
+      "from_node": "6.7",
+      "to_node": "6.1",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "Site water access and discharge permitting can limit datacenter siting and operating density."
+    },
+    {
+      "from_node": "6.7",
+      "to_node": "6.2C",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "Cooling-water supply, treatment, reuse, and discharge limits heat rejection plant design and throughput."
+    },
+    {
+      "from_node": "6.8",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Structured cabling interfaces and supportable cable/power harnesses are installed across white space."
+    },
+    {
+      "from_node": "6.8",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Racks, containment, trays, supports, and seismic bracing create deployable white-space capacity."
+    },
+    {
+      "from_node": "6.8",
+      "to_node": "6.2A",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rack/cabinet formats, containment, and support systems physically host liquid manifolds or immersion equipment."
+    },
+    {
+      "from_node": "6.8",
+      "to_node": "6.9",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rack geometry and support systems determine how rack power shelves and vertical busbars are installed."
+    },
+    {
+      "from_node": "6.9",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rack-level 48V distribution uses copper busbars, blind-mate power conductors, and vertical distribution elements."
+    },
+    {
+      "from_node": "6.9",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rectifier shelves, 48V bus converters, and rack battery systems are built around power semiconductors."
+    },
+    {
+      "from_node": "6.9",
+      "to_node": "4.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rack power shelves and BBUs contain capacitors, inductors, chokes, and filters."
+    },
+    {
+      "from_node": "6.9",
+      "to_node": "6.3D",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Row/rack distribution delivers conditioned power into 48V shelves, busbars, and rack battery interfaces."
+    },
+    {
+      "from_node": "6.9",
+      "to_node": "6.8",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rack geometry and support systems determine how rack power shelves and vertical busbars are installed."
+    },
+    {
+      "from_node": "6.9",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rack power shelves, busbars, and blind-mate 48V interfaces define the server power-entry architecture."
+    },
+    {
+      "from_node": "6.9",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "48V distribution, rack busbars, blind-mate interfaces, and rack BBUs provide final in-rack power delivery."
+    },
+    {
+      "from_node": "7.1",
+      "to_node": "1.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Uranium conversion, enrichment, and fuel fabrication deliver fuel assemblies to operating reactors."
+    },
+    {
+      "from_node": "7.1",
+      "to_node": "1.13",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Thermal nuclear plants consume cooling and process water during operation."
+    },
+    {
+      "from_node": "7.1",
+      "to_node": "7.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Transmission interconnection, substations, and protection schemes are required to deliver nuclear output to load."
+    },
+    {
+      "from_node": "7.1",
+      "to_node": "7.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Existing nuclear plants sell firm low-carbon electricity into utility supply portfolios."
+    },
+    {
+      "from_node": "7.2",
+      "to_node": "1.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Fuel-cycle services provide the enriched fuel supply required by new-build and advanced nuclear reactors."
+    },
+    {
+      "from_node": "7.2",
+      "to_node": "1.11",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Reactor buildings and nuclear balance-of-plant civil works consume large volumes of concrete and structural steel."
+    },
+    {
+      "from_node": "7.2",
+      "to_node": "7.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Transmission/substation interconnection and grid works are required for new nuclear project delivery."
+    },
+    {
+      "from_node": "7.2",
+      "to_node": "7.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "New nuclear capacity and advanced reactors expand utility generation options for firm power."
+    },
+    {
+      "from_node": "7.3",
+      "to_node": "1.13",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Gas-fired generation and CHP plants consume cooling and process water."
+    },
+    {
+      "from_node": "7.3",
+      "to_node": "7.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Interconnection and transmission capacity are required to dispatch gas-fired generation to load."
+    },
+    {
+      "from_node": "7.3",
+      "to_node": "7.9",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Pipelines, compression, storage, and metering deliver fuel to gas-fired plants and engines."
+    },
+    {
+      "from_node": "7.3",
+      "to_node": "6.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Gas turbine/engine generation packages and related services can be deployed as onsite backup or prime power."
+    },
+    {
+      "from_node": "7.3",
+      "to_node": "7.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Gas-fired generation supplies dispatchable power into utility portfolios serving load growth."
+    },
+    {
+      "from_node": "7.4",
+      "to_node": "1.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Nd/Pr permanent magnets are used in wind turbine generators and other renewable-power equipment."
+    },
+    {
+      "from_node": "7.4",
+      "to_node": "1.8A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Polysilicon feedstock is embodied in solar modules deployed across renewable generation projects."
+    },
+    {
+      "from_node": "7.4",
+      "to_node": "7.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Transmission interconnection and substation capacity are required to monetize renewable generation output."
+    },
+    {
+      "from_node": "7.4",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "PPAs, green tariffs, and colocated renewables can supply datacenter power procurement."
+    },
+    {
+      "from_node": "7.4",
+      "to_node": "7.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Solar/wind projects and associated equipment deliver renewable electricity and RECs into utility portfolios."
+    },
+    {
+      "from_node": "7.5",
+      "to_node": "1.13",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Geothermal projects depend on water systems for reservoir management and plant operation."
+    },
+    {
+      "from_node": "7.5",
+      "to_node": "7.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Interconnection infrastructure is required to deliver geothermal generation into the grid."
+    },
+    {
+      "from_node": "7.5",
+      "to_node": "7.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Geothermal plants provide firm renewable power into utility portfolios."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "1.9",
+      "relationship": "constrains",
+      "direction": "upstream",
+      "description": "Transformer-core alloy availability gates transmission and substation transformer buildout across the grid."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "1.11",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Steel, concrete, and structural materials are consumed in substations, towers, foundations, and other grid assets."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "7.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "STATCOM/SVC/HVDC converter stations and related power electronics are installed inside transmission and stabilization projects."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "1.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Copper conductor, busbar, and winding wire consumed in transmission lines, substations, and grid-scale transformers"
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "6.1",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "Transmission/substation availability and interconnection queue timing can gate campus energization."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "7.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Transmission interconnection, substations, and protection schemes are required to deliver nuclear output to load."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "7.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Transmission/substation interconnection and grid works are required for new nuclear project delivery."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "7.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Interconnection and transmission capacity are required to dispatch gas-fired generation to load."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "7.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Transmission interconnection and substation capacity are required to monetize renewable generation output."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "7.5",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Interconnection infrastructure is required to deliver geothermal generation into the grid."
+    },
+    {
+      "from_node": "7.6",
+      "to_node": "7.8",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Transmission, substations, and stabilization assets are the network through which utilities deliver power."
+    },
+    {
+      "from_node": "7.7",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Si/GaN/SiC switching devices power grid converters, STATCOM/SVC systems, and behind-the-meter dispatch hardware."
+    },
+    {
+      "from_node": "7.7",
+      "to_node": "6.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Microgrid EMS, inverter controls, and dispatch software coordinate onsite BESS and generation assets."
+    },
+    {
+      "from_node": "7.7",
+      "to_node": "7.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "STATCOM/SVC/HVDC converter stations and related power electronics are installed inside transmission and stabilization projects."
+    },
+    {
+      "from_node": "7.7",
+      "to_node": "7.8",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Utility dispatch, DER orchestration, and grid-support conversion are used to manage large flexible loads and distributed resources."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "7.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Existing nuclear plants sell firm low-carbon electricity into utility supply portfolios."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "7.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "New nuclear capacity and advanced reactors expand utility generation options for firm power."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "7.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Gas-fired generation supplies dispatchable power into utility portfolios serving load growth."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "7.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Solar/wind projects and associated equipment deliver renewable electricity and RECs into utility portfolios."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "7.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Geothermal plants provide firm renewable power into utility portfolios."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "7.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Transmission, substations, and stabilization assets are the network through which utilities deliver power."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "7.7",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Utility dispatch, DER orchestration, and grid-support conversion are used to manage large flexible loads and distributed resources."
+    },
+    {
+      "from_node": "7.8",
+      "to_node": "6.1",
+      "relationship": "constrains",
+      "direction": "downstream",
+      "description": "Utility interconnection timing, tariff design, and available megawatts gate datacenter energization."
+    },
+    {
+      "from_node": "7.9",
+      "to_node": "7.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Pipelines, compression, storage, and metering deliver fuel to gas-fired plants and engines."
+    },
+    {
+      "from_node": "8.1A",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Drawn fiber and cable stock become optical cabling used in high-speed internal and campus interconnects."
+    },
+    {
+      "from_node": "8.1A",
+      "to_node": "8.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Submarine and terrestrial long-haul builds consume large volumes of drawn fiber and cable."
+    },
+    {
+      "from_node": "8.1A",
+      "to_node": "8.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Metro builds and dark-fiber deployments consume fiber cable and passive build materials."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "1.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "III–V and detector-material inputs are used in lasers, modulators, photodetectors, and photonic integrated circuits."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Lithography capability is needed for silicon photonics and III–V device patterning."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Deposition/etch/process equipment is required for lasers, modulators, detectors, and PIC fabrication."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Mask-writing and reticle infrastructure is used in photonic and III–V wafer patterning."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "III–V and silicon-photonics fabs consume specialty process chemicals, cleans, and deposition precursors."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.6",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "PIC/driver co-design, analog simulation, and layout/signoff depend on photonics-capable EDA toolchains."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.7",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Cleanroom utilities, gas cabinets, exhaust, and contamination control are required for photonics fabrication."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.8",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Factory integration and APC/FDC loops coordinate photonics manufacturing lines."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "2.9",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Clean wafer/reticle movement and storage systems support photonics fab material logistics."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "3.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Foundry/PIC fabrication capacity is used for silicon photonics and related active optical devices."
+    },
+    {
+      "from_node": "8.1B",
+      "to_node": "8.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Lasers, modulators, detectors, and PIC dies go into optical-engine and module packaging lines."
+    },
+    {
+      "from_node": "8.1C",
+      "to_node": "3.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Optical DSPs, retimers, and SerDes devices are integrated into transceivers and optical engines."
+    },
+    {
+      "from_node": "8.1C",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Substrates and boards carry optics, DSPs, power, and control circuitry inside transceiver modules."
+    },
+    {
+      "from_node": "8.1C",
+      "to_node": "8.5",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Precision alignment, attachment, coupling, and electro-optical test turn photonic/electronic dies into shippable modules."
+    },
+    {
+      "from_node": "8.1C",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Pluggable transceivers and active optical links terminate and light fiber interconnects."
+    },
+    {
+      "from_node": "8.1C",
+      "to_node": "8.1D",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Coherent and pluggable transceivers populate DWDM transport shelves and optical line systems."
+    },
+    {
+      "from_node": "8.1C",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Pluggable optics and optical engines are installed in switches, routers, and datacenter fabric gear."
+    },
+    {
+      "from_node": "8.1D",
+      "to_node": "8.1C",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Coherent and pluggable transceivers populate DWDM transport shelves and optical line systems."
+    },
+    {
+      "from_node": "8.1D",
+      "to_node": "8.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "DWDM transponders, amplifiers, ROADMs, and mux/demux gear light and manage submarine/long-haul routes."
+    },
+    {
+      "from_node": "8.1D",
+      "to_node": "8.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Metro DWDM transport and optical line systems provide capacity between campuses, carrier hotels, and cloud on-ramps."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "3.7",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Switch ASICs, DPUs/SmartNICs, and PHY silicon form the core of networking equipment."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "4.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Passives populate switch/router motherboards, line cards, and power/filter sections."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Switch/router boards and line cards depend on advanced multilayer PCB supply."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Pluggable cages, backplane connectors, and internal cabling are integral to network gear."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "8.1C",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Pluggable optics and optical engines are installed in switches, routers, and datacenter fabric gear."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "VRMs, DC-DC converters, MOSFETs, and power management ICs used on switch, router, and NIC boards"
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Datacenter switching/routing fabric hardware is installed in halls and campus networks."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Cloud GPU platforms rely on switches, routers, and fabric gear for east-west and north-south connectivity."
+    },
+    {
+      "from_node": "8.2",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CDN and edge PoPs deploy switch/router/load-balancer hardware to connect caches and inference nodes."
+    },
+    {
+      "from_node": "8.3",
+      "to_node": "8.1A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Submarine and terrestrial long-haul builds consume large volumes of drawn fiber and cable."
+    },
+    {
+      "from_node": "8.3",
+      "to_node": "8.1D",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "DWDM transponders, amplifiers, ROADMs, and mux/demux gear light and manage submarine/long-haul routes."
+    },
+    {
+      "from_node": "8.3",
+      "to_node": "8.6",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Transoceanic and long-haul backbone capacity terminates into carrier hotels and interconnection ecosystems."
+    },
+    {
+      "from_node": "8.4",
+      "to_node": "6.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Security controls, IAM, DDoS mitigation, SIEM, and zero-trust tooling are required to operate datacenters securely."
+    },
+    {
+      "from_node": "8.4",
+      "to_node": "9.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Cloud AI service delivery depends on IAM, CNAPP, key management, network security, and DDoS protection."
+    },
+    {
+      "from_node": "8.4",
+      "to_node": "11.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "AI gateways, agent platforms, and enterprise AI stacks need security, identity, and policy-enforcement layers."
+    },
+    {
+      "from_node": "8.5",
+      "to_node": "2.3",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Electro-optical alignment, calibration, and high-volume test equipment is required for photonics packaging."
+    },
+    {
+      "from_node": "8.5",
+      "to_node": "4.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Epoxies, attach materials, underfills, and thermal compounds are used in photonics packaging and assembly."
+    },
+    {
+      "from_node": "8.5",
+      "to_node": "8.1B",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Lasers, modulators, detectors, and PIC dies go into optical-engine and module packaging lines."
+    },
+    {
+      "from_node": "8.5",
+      "to_node": "8.1C",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Precision alignment, attachment, coupling, and electro-optical test turn photonic/electronic dies into shippable modules."
+    },
+    {
+      "from_node": "8.6",
+      "to_node": "8.1A",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Metro builds and dark-fiber deployments consume fiber cable and passive build materials."
+    },
+    {
+      "from_node": "8.6",
+      "to_node": "8.1D",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Metro DWDM transport and optical line systems provide capacity between campuses, carrier hotels, and cloud on-ramps."
+    },
+    {
+      "from_node": "8.6",
+      "to_node": "8.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Transoceanic and long-haul backbone capacity terminates into carrier hotels and interconnection ecosystems."
+    },
+    {
+      "from_node": "8.6",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Dark fiber, meet-me rooms, carrier hotels, and metro interconnect provide external connectivity to datacenters."
+    },
+    {
+      "from_node": "8.6",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Metro fiber, cross-connects, and carrier interconnection link cloud clusters to users, peers, and other campuses."
+    },
+    {
+      "from_node": "8.6",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Edge platforms rely on dark fiber, carrier hotels, and metro interconnect to reach users and enterprise sites."
+    },
+    {
+      "from_node": "9.1",
+      "to_node": "5.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Server firmware/BMC and hardware platform choices determine the supported OS, virtualization, and orchestration substrate."
+    },
+    {
+      "from_node": "9.1",
+      "to_node": "9.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Drivers, runtimes, and device plugins sit on top of the host OS, hypervisor, and container stack."
+    },
+    {
+      "from_node": "9.1",
+      "to_node": "9.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Bare-metal provisioning, virtualization, Kubernetes, and cluster lifecycle management underpin cloud AI services."
+    },
+    {
+      "from_node": "9.1",
+      "to_node": "9.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Container orchestration and cluster primitives provide the substrate on which training schedulers and MLOps run."
+    },
+    {
+      "from_node": "9.1",
+      "to_node": "11.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Enterprise AI platforms depend on container/runtime/orchestration layers for multi-tenant deployment and control."
+    },
+    {
+      "from_node": "9.1",
+      "to_node": "12.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Distributed edge platforms run on OS, virtualization, and orchestration layers across PoPs."
+    },
+    {
+      "from_node": "9.2",
+      "to_node": "3.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Accelerator ISA, memory hierarchy, and interconnect semantics define the driver/compiler/runtime stack."
+    },
+    {
+      "from_node": "9.2",
+      "to_node": "9.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Drivers, runtimes, and device plugins sit on top of the host OS, hypervisor, and container stack."
+    },
+    {
+      "from_node": "9.2",
+      "to_node": "9.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "GPU/accelerator drivers, compilers, collective comms, and runtime libraries are required to sell AI compute instances."
+    },
+    {
+      "from_node": "9.2",
+      "to_node": "9.4",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Distributed training frameworks call into compiler, kernel, runtime, and collective-communication libraries."
+    },
+    {
+      "from_node": "9.2",
+      "to_node": "11.1",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Inference engines depend on low-level driver, compiler, and runtime stacks matched to accelerator hardware."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "5.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Integrated compute servers and GPU racks are the hardware substrate of cloud and AI compute instances."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "5.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Block, file, and object storage platforms back cloud GPU clusters and training environments."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Powered space, cooling, and physical datacenter capacity host cloud and AI compute service platforms."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Cloud GPU platforms rely on switches, routers, and fabric gear for east-west and north-south connectivity."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "8.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Cloud AI service delivery depends on IAM, CNAPP, key management, network security, and DDoS protection."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "8.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Metro fiber, cross-connects, and carrier interconnection link cloud clusters to users, peers, and other campuses."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "9.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Bare-metal provisioning, virtualization, Kubernetes, and cluster lifecycle management underpin cloud AI services."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "9.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "GPU/accelerator drivers, compilers, collective comms, and runtime libraries are required to sell AI compute instances."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "9.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rentable accelerator clusters and managed HPC environments host training/orchestration stacks."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "9.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Cloud compute, storage, and network primitives host data lakes, ETL, vector databases, and pipeline tooling."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "10.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Frontier labs buy or lease massive GPU and accelerator clusters from cloud and AI compute providers."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Vertical model developers rent cloud/HPC capacity for pretraining, fine-tuning, and evaluation."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Inference platforms deploy serving clusters on cloud GPU and accelerator instances."
+    },
+    {
+      "from_node": "9.3",
+      "to_node": "11.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Enterprise AI platforms run on cloud and AIaaS infrastructure for training, hosting, and agent execution."
+    },
+    {
+      "from_node": "9.4",
+      "to_node": "9.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Container orchestration and cluster primitives provide the substrate on which training schedulers and MLOps run."
+    },
+    {
+      "from_node": "9.4",
+      "to_node": "9.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Distributed training frameworks call into compiler, kernel, runtime, and collective-communication libraries."
+    },
+    {
+      "from_node": "9.4",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rentable accelerator clusters and managed HPC environments host training/orchestration stacks."
+    },
+    {
+      "from_node": "9.4",
+      "to_node": "10.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Distributed training, schedulers, experiment tracking, and pipeline orchestration are required to train frontier models."
+    },
+    {
+      "from_node": "9.4",
+      "to_node": "10.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Training/orchestration/MLOps stacks support specialized model training, fine-tuning, and evaluation."
+    },
+    {
+      "from_node": "9.5",
+      "to_node": "5.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Enterprise SSDs and storage clusters underpin data lakes, warehouses, vector stores, and pipeline staging."
+    },
+    {
+      "from_node": "9.5",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Cloud compute, storage, and network primitives host data lakes, ETL, vector databases, and pipeline tooling."
+    },
+    {
+      "from_node": "9.5",
+      "to_node": "10.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Licensed and raw datasets flow into ETL, cataloging, labeling, and governance pipelines."
+    },
+    {
+      "from_node": "9.5",
+      "to_node": "10.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Cleaned, labeled, governed datasets and retrieval corpora are supplied into frontier-model training loops."
+    },
+    {
+      "from_node": "9.5",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Domain data pipelines, labels, synthetic data, and vector stores support vertical model development."
+    },
+    {
+      "from_node": "9.5",
+      "to_node": "11.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Vector databases, data governance, ETL, and lakehouse infrastructure underpin RAG and enterprise AI stacks."
+    },
+    {
+      "from_node": "10.1",
+      "to_node": "9.5",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Licensed and raw datasets flow into ETL, cataloging, labeling, and governance pipelines."
+    },
+    {
+      "from_node": "10.1",
+      "to_node": "10.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Rights-cleared and proprietary training corpora are acquired for frontier model training."
+    },
+    {
+      "from_node": "10.1",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Domain-specific licensed data and proprietary corpora are acquired for specialized model development."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Dedicated campuses and colocation halls host frontier training clusters and supporting infrastructure."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Frontier labs buy or lease massive GPU and accelerator clusters from cloud and AI compute providers."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "9.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Distributed training, schedulers, experiment tracking, and pipeline orchestration are required to train frontier models."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "9.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Cleaned, labeled, governed datasets and retrieval corpora are supplied into frontier-model training loops."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "10.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Rights-cleared and proprietary training corpora are acquired for frontier model training."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "10.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Specialized model developers often adapt, distill, or fine-tune frontier foundation models as starting points."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Trained frontier base models are handed to inference and serving stacks for deployment and optimization."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "11.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Frontier APIs and model endpoints are routed through gateways, RAG layers, safety/evals, and agent platforms."
+    },
+    {
+      "from_node": "10.2",
+      "to_node": "11.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "General-purpose model capabilities are embedded into SaaS workflows and AI-native applications."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Owned or leased datacenter capacity hosts specialized model training and domain-specific inference clusters."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Vertical model developers rent cloud/HPC capacity for pretraining, fine-tuning, and evaluation."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "9.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Training/orchestration/MLOps stacks support specialized model training, fine-tuning, and evaluation."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "9.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Domain data pipelines, labels, synthetic data, and vector stores support vertical model development."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "10.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Domain-specific licensed data and proprietary corpora are acquired for specialized model development."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "10.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Specialized model developers often adapt, distill, or fine-tune frontier foundation models as starting points."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Vertical models are packaged for optimized serving and deployment."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "11.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Specialized models are integrated into enterprise AI stacks, copilots, and agent systems."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "11.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Domain AI capabilities are embedded into industry-specific SaaS and application workflows."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "11.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Integrators deploy, fine-tune, and operationalize specialized models in regulated or custom environments."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Robot-specific perception, planning, and control models run on embodied AI compute platforms."
+    },
+    {
+      "from_node": "10.3",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Autonomy, ADAS, mapping, and planning models run on autonomous mobility compute stacks."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "9.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Inference engines depend on low-level driver, compiler, and runtime stacks matched to accelerator hardware."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Inference platforms deploy serving clusters on cloud GPU and accelerator instances."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "10.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Trained frontier base models are handed to inference and serving stacks for deployment and optimization."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Vertical models are packaged for optimized serving and deployment."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "11.2",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Model serving, scheduling, KV-cache, and inference optimization are the execution layer behind AI platforms and gateways."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "11.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Optimized model endpoints and runtime services power end-user AI features inside SaaS and applications."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Edge inference stacks and serving runtimes are deployed into CDN and edge nodes for low-latency execution."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "On-device runtimes, quantized artifacts, and inference engines enable local model execution on consumer hardware."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Optimized runtimes and inference stacks are deployed on robot compute for local perception and planning loops."
+    },
+    {
+      "from_node": "11.1",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Optimized inference and runtime stacks are deployed on vehicle/autonomy compute for low-latency execution."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "8.4",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "AI gateways, agent platforms, and enterprise AI stacks need security, identity, and policy-enforcement layers."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "9.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Enterprise AI platforms depend on container/runtime/orchestration layers for multi-tenant deployment and control."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "9.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Enterprise AI platforms run on cloud and AIaaS infrastructure for training, hosting, and agent execution."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "9.5",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Vector databases, data governance, ETL, and lakehouse infrastructure underpin RAG and enterprise AI stacks."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "10.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Frontier APIs and model endpoints are routed through gateways, RAG layers, safety/evals, and agent platforms."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Specialized models are integrated into enterprise AI stacks, copilots, and agent systems."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "11.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Model serving, scheduling, KV-cache, and inference optimization are the execution layer behind AI platforms and gateways."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "11.3",
+      "relationship": "enables",
+      "direction": "downstream",
+      "description": "Gateways, RAG layers, agent frameworks, safety/evals, and developer tooling are the infrastructure used by AI applications."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "11.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Enterprise AI platforms and control planes are the systems integrators deploy, customize, and manage for clients."
+    },
+    {
+      "from_node": "11.2",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Enterprise AI stacks and gateway/control-plane services are deployed into distributed edge environments."
+    },
+    {
+      "from_node": "11.3",
+      "to_node": "10.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "General-purpose model capabilities are embedded into SaaS workflows and AI-native applications."
+    },
+    {
+      "from_node": "11.3",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Domain AI capabilities are embedded into industry-specific SaaS and application workflows."
+    },
+    {
+      "from_node": "11.3",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Optimized model endpoints and runtime services power end-user AI features inside SaaS and applications."
+    },
+    {
+      "from_node": "11.3",
+      "to_node": "11.2",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Gateways, RAG layers, agent frameworks, safety/evals, and developer tooling are the infrastructure used by AI applications."
+    },
+    {
+      "from_node": "11.3",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "SaaS and application traffic is accelerated, cached, and geographically distributed through edge infrastructure."
+    },
+    {
+      "from_node": "11.3",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "End-user AI applications are consumed on phones, PCs, tablets, and wearables."
+    },
+    {
+      "from_node": "11.4",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Integrators deploy, fine-tune, and operationalize specialized models in regulated or custom environments."
+    },
+    {
+      "from_node": "11.4",
+      "to_node": "11.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Enterprise AI platforms and control planes are the systems integrators deploy, customize, and manage for clients."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "4.4",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Edge PoPs and CDN nodes require internal interconnect, pluggables, and power/data cabling."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Assembled edge servers and network appliances populate CDN and edge PoPs."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "6.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CDN and edge operators lease or operate datacenter and colo footprints for distributed PoPs."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "8.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CDN and edge PoPs deploy switch/router/load-balancer hardware to connect caches and inference nodes."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "8.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Edge platforms rely on dark fiber, carrier hotels, and metro interconnect to reach users and enterprise sites."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "9.1",
+      "relationship": "enables",
+      "direction": "upstream",
+      "description": "Distributed edge platforms run on OS, virtualization, and orchestration layers across PoPs."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Edge inference stacks and serving runtimes are deployed into CDN and edge nodes for low-latency execution."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "11.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Enterprise AI stacks and gateway/control-plane services are deployed into distributed edge environments."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "11.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "SaaS and application traffic is accelerated, cached, and geographically distributed through edge infrastructure."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "12.2",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "CDN/edge caching, acceleration, and nearby inference reduce latency for consumer-device AI experiences."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "12.3",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Edge connectivity and nearby inference nodes support robot fleet updates, coordination, and low-latency offboard compute."
+    },
+    {
+      "from_node": "12.1",
+      "to_node": "12.4",
+      "relationship": "feeds_into",
+      "direction": "downstream",
+      "description": "Edge inference/connectivity support map delivery, teleoperation fallback, and low-latency autonomy services."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "3.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "On-device NPUs/GPUs and inference accelerators provide local AI execution engines in consumer hardware."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "3.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CPU and application-processor cores are the general-purpose compute foundation of AI consumer devices."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "LPDDR/DRAM/NAND provide working memory and storage in on-device AI hardware."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "PMICs and power stages manage battery charging, thermals, and rail conversion in AI consumer devices."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "4.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Device mainboards and interposers depend on advanced PCB and substrate fabrication."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "OEM/ODM manufacturing assembles AI phones, PCs, tablets, and wearables at scale."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "On-device runtimes, quantized artifacts, and inference engines enable local model execution on consumer hardware."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "11.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "End-user AI applications are consumed on phones, PCs, tablets, and wearables."
+    },
+    {
+      "from_node": "12.2",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CDN/edge caching, acceleration, and nearby inference reduce latency for consumer-device AI experiences."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "3.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Embedded AI accelerators provide local perception and policy execution in robot compute stacks."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "3.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "General-purpose processors provide host control and non-accelerator compute in robot controllers."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Memory devices hold model weights, sensor buffers, and local data on robot compute platforms."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Motor drives, DC-DC stages, and power-control electronics are core to robot compute platforms."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Box-build and electronics assembly deliver robot compute units and control hardware."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Robot-specific perception, planning, and control models run on embodied AI compute platforms."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Optimized runtimes and inference stacks are deployed on robot compute for local perception and planning loops."
+    },
+    {
+      "from_node": "12.3",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Edge connectivity and nearby inference nodes support robot fleet updates, coordination, and low-latency offboard compute."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "3.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Autonomous compute boards integrate accelerators for perception, planning, and sensor fusion."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "3.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "CPUs/SoCs provide planning, control, and fallback compute in autonomous mobility stacks."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "3.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Memory devices store maps, models, and sensor histories in autonomous systems."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "3.6",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Sensor rails, compute power stages, and traction-adjacent control electronics depend on power semiconductors."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "5.2",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "EMS providers assemble autonomous compute modules, ECUs, and sensor-processing hardware."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "10.3",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Autonomy, ADAS, mapping, and planning models run on autonomous mobility compute stacks."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "11.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Optimized inference and runtime stacks are deployed on vehicle/autonomy compute for low-latency execution."
+    },
+    {
+      "from_node": "12.4",
+      "to_node": "12.1",
+      "relationship": "feeds_into",
+      "direction": "upstream",
+      "description": "Edge inference/connectivity support map delivery, teleoperation fallback, and low-latency autonomy services."
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "decision_count": 128,
+  "key_bottleneck_nodes": [
+    {
+      "avg_confidence": 0.744,
+      "decision_count": 128,
+      "disagreement_score": 0.438,
+      "mixed_count": 36,
+      "negative_count": 28,
+      "net_signal_score": 20.45,
+      "node": "3.3",
+      "positive_count": 64
+    },
+    {
+      "avg_confidence": 0.725,
+      "decision_count": 84,
+      "disagreement_score": 0.714,
+      "mixed_count": 36,
+      "negative_count": 20,
+      "net_signal_score": 15.09,
+      "node": "3.1",
+      "positive_count": 28
+    },
+    {
+      "avg_confidence": 0.781,
+      "decision_count": 76,
+      "disagreement_score": 1.0,
+      "mixed_count": 20,
+      "negative_count": 28,
+      "net_signal_score": 6.58,
+      "node": "3.5",
+      "positive_count": 28
+    },
+    {
+      "avg_confidence": 0.618,
+      "decision_count": 56,
+      "disagreement_score": 1.0,
+      "mixed_count": 16,
+      "negative_count": 20,
+      "net_signal_score": 7.54,
+      "node": "2.1",
+      "positive_count": 20
+    },
+    {
+      "avg_confidence": 0.606,
+      "decision_count": 36,
+      "disagreement_score": 0.0,
+      "mixed_count": 16,
+      "negative_count": 0,
+      "net_signal_score": 41.24,
+      "node": "2.2",
+      "positive_count": 20
+    },
+    {
+      "avg_confidence": 0.83,
+      "decision_count": 36,
+      "disagreement_score": 0.0,
+      "mixed_count": 20,
+      "negative_count": 0,
+      "net_signal_score": 21.45,
+      "node": "6.1",
+      "positive_count": 16
+    }
+  ],
+  "node_summary": {
+    "2.1": {
+      "avg_confidence": 0.618,
+      "decision_count": 56,
+      "disagreement_score": 1.0,
+      "mixed_count": 16,
+      "negative_count": 20,
+      "net_signal_score": 7.54,
+      "positive_count": 20
+    },
+    "2.2": {
+      "avg_confidence": 0.606,
+      "decision_count": 36,
+      "disagreement_score": 0.0,
+      "mixed_count": 16,
+      "negative_count": 0,
+      "net_signal_score": 41.24,
+      "positive_count": 20
+    },
+    "2.3": {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20
+    },
+    "3.1": {
+      "avg_confidence": 0.725,
+      "decision_count": 84,
+      "disagreement_score": 0.714,
+      "mixed_count": 36,
+      "negative_count": 20,
+      "net_signal_score": 15.09,
+      "positive_count": 28
+    },
+    "3.3": {
+      "avg_confidence": 0.744,
+      "decision_count": 128,
+      "disagreement_score": 0.438,
+      "mixed_count": 36,
+      "negative_count": 28,
+      "net_signal_score": 20.45,
+      "positive_count": 64
+    },
+    "3.5": {
+      "avg_confidence": 0.781,
+      "decision_count": 76,
+      "disagreement_score": 1.0,
+      "mixed_count": 20,
+      "negative_count": 28,
+      "net_signal_score": 6.58,
+      "positive_count": 28
+    },
+    "4.2": {
+      "avg_confidence": 0.92,
+      "decision_count": 12,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 12
+    },
+    "5.1": {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16
+    },
+    "6.1": {
+      "avg_confidence": 0.83,
+      "decision_count": 36,
+      "disagreement_score": 0.0,
+      "mixed_count": 20,
+      "negative_count": 0,
+      "net_signal_score": 21.45,
+      "positive_count": 16
+    }
+  },
+  "participant_summary": {
+    "buy_side_pm": -0.209,
+    "equipment_rep": 1.072,
+    "memory_exec": 0.471,
+    "nvidia_supply": 1.785,
+    "procurement_exec": 1.632,
+    "sell_side_analyst": -0.795,
+    "trader": 0.059
+  },
+  "portfolio_view": {
+    "long_candidates": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "8035.T",
+      "NVDA"
+    ],
+    "pair_trade_candidates": [
+      "Long equipment/capex beneficiaries vs underweight MU if signal split persists"
+    ],
+    "short_or_underweight_candidates": [
+      "MU"
+    ],
+    "watchlist": [
+      "advanced packaging substrate suppliers",
+      "HBM share data",
+      "hyperscaler deployment cadence"
+    ]
+  },
+  "quarter_summary": {
+    "2026Q2": 0.286,
+    "2026Q3": 0.534,
+    "2026Q4": 0.669,
+    "2027Q1": 0.422
+  },
+  "ticker_summary": {
+    "000660.KS": {
+      "avg_confidence": 0.672,
+      "decision_count": 40,
+      "disagreement_score": 0.5,
+      "mixed_count": 16,
+      "negative_count": 8,
+      "net_signal_score": 15.47,
+      "positive_count": 16
+    },
+    "005930.KS": {
+      "avg_confidence": 0.765,
+      "decision_count": 68,
+      "disagreement_score": 0.182,
+      "mixed_count": 16,
+      "negative_count": 8,
+      "net_signal_score": 34.3,
+      "positive_count": 44
+    },
+    "8035.T": {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20
+    },
+    "AMAT": {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20
+    },
+    "AMZN": {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16
+    },
+    "ASML": {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20
+    },
+    "GOOGL": {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16
+    },
+    "LRCX": {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20
+    },
+    "MSFT": {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16
+    },
+    "MU": {
+      "avg_confidence": 0.694,
+      "decision_count": 80,
+      "disagreement_score": 0.571,
+      "mixed_count": 36,
+      "negative_count": 28,
+      "net_signal_score": -4.84,
+      "positive_count": 16
+    },
+    "NVDA": {
+      "avg_confidence": 0.735,
+      "decision_count": 44,
+      "disagreement_score": 0.0,
+      "mixed_count": 16,
+      "negative_count": 0,
+      "net_signal_score": 45.54,
+      "positive_count": 28
+    }
+  },
+  "top_negative_tickers": [
+    {
+      "avg_confidence": 0.694,
+      "decision_count": 80,
+      "disagreement_score": 0.571,
+      "mixed_count": 36,
+      "negative_count": 28,
+      "net_signal_score": -4.84,
+      "positive_count": 16,
+      "ticker": "MU"
+    },
+    {
+      "avg_confidence": 0.672,
+      "decision_count": 40,
+      "disagreement_score": 0.5,
+      "mixed_count": 16,
+      "negative_count": 8,
+      "net_signal_score": 15.47,
+      "positive_count": 16,
+      "ticker": "000660.KS"
+    },
+    {
+      "avg_confidence": 0.765,
+      "decision_count": 68,
+      "disagreement_score": 0.182,
+      "mixed_count": 16,
+      "negative_count": 8,
+      "net_signal_score": 34.3,
+      "positive_count": 44,
+      "ticker": "005930.KS"
+    },
+    {
+      "avg_confidence": 0.735,
+      "decision_count": 44,
+      "disagreement_score": 0.0,
+      "mixed_count": 16,
+      "negative_count": 0,
+      "net_signal_score": 45.54,
+      "positive_count": 28,
+      "ticker": "NVDA"
+    },
+    {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16,
+      "ticker": "AMZN"
+    },
+    {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16,
+      "ticker": "GOOGL"
+    },
+    {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16,
+      "ticker": "MSFT"
+    },
+    {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20,
+      "ticker": "ASML"
+    }
+  ],
+  "top_positive_tickers": [
+    {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16,
+      "ticker": "AMZN"
+    },
+    {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16,
+      "ticker": "GOOGL"
+    },
+    {
+      "avg_confidence": 0.88,
+      "decision_count": 16,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 16,
+      "ticker": "MSFT"
+    },
+    {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20,
+      "ticker": "ASML"
+    },
+    {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20,
+      "ticker": "AMAT"
+    },
+    {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20,
+      "ticker": "LRCX"
+    },
+    {
+      "avg_confidence": 0.73,
+      "decision_count": 20,
+      "disagreement_score": 0.0,
+      "mixed_count": 0,
+      "negative_count": 0,
+      "net_signal_score": 50.0,
+      "positive_count": 20,
+      "ticker": "8035.T"
+    },
+    {
+      "avg_confidence": 0.735,
+      "decision_count": 44,
+      "disagreement_score": 0.0,
+      "mixed_count": 16,
+      "negative_count": 0,
+      "net_signal_score": 45.54,
+      "positive_count": 28,
+      "ticker": "NVDA"
+    }
+  ]
+}
