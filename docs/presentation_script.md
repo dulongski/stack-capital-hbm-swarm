@@ -40,7 +40,37 @@ Fourth, each agent produces role-native decisions across Q2 2026 through Q1 2027
 
 Fifth, the synthesis layer aggregates decisions by ticker, node, quarter, and participant type to produce portfolio outputs.
 
-## Slide 5 - Why Not Default MiroFish?
+## Slide 5 - Agent Harness
+
+This is the agent harness slide. The reason I added this is because the system is not just a report generator; it is an orchestration layer.
+
+The orchestrator runs the simulation one quarter at a time. For each quarter, it creates context packets from the graph, the catalyst, the selected nodes, and the relevant tickers. Then it activates agent cohorts with different roles and information access.
+
+The context builder is important because not every agent should receive the same view. A procurement executive gets a supply-chain framing. A trader gets positioning and flow framing. An equipment rep gets capex and tool-order framing.
+
+After each agent produces a decision, the schema validator checks the output. It enforces the participant type, allowed decision type, affected tickers, direction, magnitude, confidence, assumptions, and risk flags.
+
+That validation layer is what makes the system more than prompting. It creates clean structured records that can be scored, aggregated, audited, and converted into forecasts.
+
+## Slide 6 - Per-Agent Loop
+
+This is the per-agent reasoning loop.
+
+The first step is retrieval: each agent gets the relevant graph nodes, dependency edges, companies, and catalyst facts. In a fuller production version, this is where I would also inject FMP fundamentals, estimates, price targets, holdings, and historical price action.
+
+The second step is role conditioning. The agent has a participant type, covered nodes, covered tickers, information access, credibility weight, and bias profile. Those attributes constrain how the agent should reason.
+
+The third step is decision generation. Instead of letting the agent produce freeform text, it has to choose a role-native action. For example, an analyst can revise estimates, a procurement executive can change vendor allocation, and a PM can adjust position sizing.
+
+The fourth step is explanation. I require reasoning, assumptions, and risk flags because otherwise the signal would be hard to audit.
+
+The fifth step is schema validation. I used Pydantic so invalid direction/magnitude combinations or wrong action types are rejected.
+
+The last step is aggregation. Every valid decision goes into JSONL logs and then into the synthesis and forecasting layers.
+
+This is the most agentic part of the project: agents are autonomous within a constrained harness, and the harness turns their heterogeneous decisions into a portfolio signal.
+
+## Slide 7 - Why Not Default MiroFish?
 
 MiroFish is useful as an architectural pattern, but the default action space is social-media oriented: post, like, repost, comment, follow.
 
@@ -50,7 +80,7 @@ So I preserved the MiroFish ideas that matter: graph grounding, personas, simula
 
 Technically, I avoided patching the OASIS `ActionType` enum because that enum lives in the external `camel-oasis` package. Instead, I used a custom structured logger pattern, similar to a ManualAction approach. It is less brittle and easier to review.
 
-## Slide 6 - Propagation Map
+## Slide 8 - Propagation Map
 
 This slide shows how the event moves through the value chain.
 
@@ -64,7 +94,7 @@ Finally, downstream cloud and datacenter nodes only benefit if power, cooling, s
 
 This is why the simulation cannot be single-stock only.
 
-## Slide 7 - Agent Design
+## Slide 9 - Agent Design
 
 The agents are split into three broad information regimes.
 
@@ -76,7 +106,7 @@ Company-facing agents include Micron, Samsung, SK Hynix, and equipment represent
 
 The reason this matters is information asymmetry. A procurement executive should have different context from a trader. That is how the simulation can produce disagreement that is meaningful rather than just noisy.
 
-## Slide 8 - Ticker Signals
+## Slide 10 - Ticker Signals
 
 The ticker output is intentionally multi-name.
 
@@ -86,7 +116,7 @@ Micron is the underweight candidate. The model does not say Micron demand collap
 
 So the investment view is not "short all memory." It is more nuanced: favor the companies that benefit from broader AI deployment and capex response, while watching Micron's margin and share assumptions more carefully.
 
-## Slide 9 - Forecasting Layer
+## Slide 11 - Forecasting Layer
 
 After the first implementation, I added a forecasting layer inspired by Thinking Machines' Mantic post on training LLMs to predict world events.
 
@@ -96,7 +126,7 @@ In this project, the research packet is the simulation decision log. The binary 
 
 The outputs are probabilities, not certainties. If real outcomes are supplied later, the system can compute Brier scores. That makes the research process more falsifiable.
 
-## Slide 10 - Portfolio View
+## Slide 12 - Portfolio View
 
 The practical portfolio readout is relative value.
 
@@ -108,7 +138,7 @@ The pair-trade expression is: long equipment and deployment beneficiaries versus
 
 The watch items are HBM share data, packaging capacity, and hyperscaler deployment cadence.
 
-## Slide 11 - What I Would Improve Next
+## Slide 13 - What I Would Improve Next
 
 There are three obvious next steps.
 
@@ -120,7 +150,7 @@ Third, better evaluation. The forecasting layer is designed so that future outco
 
 The main point is that the MVP is not a one-off script. It is a foundation for iterative investment simulation.
 
-## Slide 12 - Close
+## Slide 14 - Close
 
 To summarize, I converted an ambiguous catalyst into a structured simulation system.
 
@@ -129,4 +159,3 @@ I adapted the MiroFish pattern into a finance-native agent loop, replaced social
 The conclusion is that the Samsung HBM4 catalyst is not simply negative for Micron. It is a chain-wide catalyst. It likely pressures Micron's scarcity premium, but it can also benefit equipment, NVIDIA, hyperscalers, and the broader AI infrastructure deployment cycle.
 
 That is the kind of multi-name view I wanted the system to produce.
-

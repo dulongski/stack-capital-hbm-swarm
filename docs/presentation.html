@@ -208,6 +208,102 @@
       align-items: center;
     }
 
+    .harness {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr 1fr;
+      grid-template-rows: auto auto auto;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .harness-box {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: #fbfcfd;
+      min-height: 105px;
+    }
+
+    .harness-box.core {
+      grid-column: 2;
+      grid-row: 2;
+      background: #eef5fb;
+      border-color: #bfd2e4;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      min-height: 138px;
+    }
+
+    .harness-box.left {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .harness-box.right {
+      grid-column: 3;
+      grid-row: 2;
+    }
+
+    .harness-box.top {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .harness-box.bottom {
+      grid-column: 2;
+      grid-row: 3;
+    }
+
+    .harness-box b, .loop-step b {
+      display: block;
+      font-size: 17px;
+      margin-bottom: 6px;
+    }
+
+    .harness-box small, .loop-step small {
+      display: block;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.3;
+    }
+
+    .harness-arrow {
+      color: var(--steel);
+      font-size: 14px;
+      margin-top: 8px;
+      font-weight: 700;
+    }
+
+    .loop {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .loop-step {
+      min-height: 158px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: #fbfcfd;
+      position: relative;
+    }
+
+    .loop-step:not(:last-child)::after {
+      content: ">";
+      position: absolute;
+      right: -12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--steel);
+      font-weight: 800;
+      background: var(--panel);
+      width: 18px;
+      text-align: center;
+    }
+
     .node {
       min-height: 94px;
       border: 1px solid var(--line);
@@ -350,10 +446,14 @@
       h2 {
         font-size: 31px;
       }
-      .two-col, .three-col, .metric-row, .pipeline, .forecast-grid, .chain {
+      .two-col, .three-col, .metric-row, .pipeline, .forecast-grid, .chain, .harness, .loop {
         grid-template-columns: 1fr;
       }
-      .pipe-step::after {
+      .harness-box.core, .harness-box.left, .harness-box.right, .harness-box.top, .harness-box.bottom {
+        grid-column: auto;
+        grid-row: auto;
+      }
+      .pipe-step::after, .loop-step::after {
         display: none;
       }
       .footer {
@@ -420,6 +520,54 @@
     </section>
 
     <section class="slide">
+      <div class="kicker">Agent Harness</div>
+      <h2>The harness orchestrates agents, context, validation, and memory.</h2>
+      <div class="harness">
+        <div class="harness-box top">
+          <b>Agent Cohorts</b>
+          <small>Analysts, PMs, procurement, NVIDIA supply, memory execs, equipment reps, and traders.</small>
+          <div class="harness-arrow">role-specific activation</div>
+        </div>
+        <div class="harness-box left">
+          <b>Context Builder</b>
+          <small>Pulls the relevant nodes, tickers, catalyst facts, quarter theme, and information-access level.</small>
+          <div class="harness-arrow">grounded context packet</div>
+        </div>
+        <div class="harness-box core">
+          <div>
+            <b>Simulation Orchestrator</b>
+            <small>Runs one quarter at a time, calls each agent, and preserves a traceable decision log.</small>
+          </div>
+        </div>
+        <div class="harness-box right">
+          <b>Schema Validator</b>
+          <small>Rejects malformed decisions and enforces role-native actions, confidence, direction, and magnitude.</small>
+          <div class="harness-arrow">clean structured records</div>
+        </div>
+        <div class="harness-box bottom">
+          <b>Synthesis + Forecasting</b>
+          <small>Weights decisions by credibility and access, then produces ticker signals, bottlenecks, memo, and event forecasts.</small>
+        </div>
+      </div>
+      <div class="footer"><span>05</span><span>Agentic harness logic</span></div>
+    </section>
+
+    <section class="slide">
+      <div class="kicker">Per-Agent Loop</div>
+      <h2>Each agent follows a constrained reasoning loop.</h2>
+      <div class="loop">
+        <div class="loop-step"><b>1. Retrieve</b><small>Relevant graph nodes, edges, companies, and catalyst facts.</small></div>
+        <div class="loop-step"><b>2. Assume Role</b><small>Apply persona, access level, credibility, and incentives.</small></div>
+        <div class="loop-step"><b>3. Decide</b><small>Choose a finance-native action such as estimate revision or vendor allocation.</small></div>
+        <div class="loop-step"><b>4. Explain</b><small>Attach reasoning, assumptions, confidence, and risk flags.</small></div>
+        <div class="loop-step"><b>5. Validate</b><small>Pydantic schema checks keep outputs machine-readable.</small></div>
+        <div class="loop-step"><b>6. Aggregate</b><small>The decision enters JSONL logs, synthesis, and forecasts.</small></div>
+      </div>
+      <p>This makes the agents useful as research instruments: constrained enough to compare, flexible enough to disagree.</p>
+      <div class="footer"><span>06</span><span>Agent reasoning loop</span></div>
+    </section>
+
+    <section class="slide">
       <div class="kicker">Why Not Default MiroFish?</div>
       <h2>I kept the useful pattern, but changed the action space.</h2>
       <div class="two-col">
@@ -443,7 +591,7 @@
       <div class="decision-box">
         <p>This avoids fragile OASIS enum patching while still preserving the swarm architecture.</p>
       </div>
-      <div class="footer"><span>05</span><span>MiroFish adaptation</span></div>
+      <div class="footer"><span>07</span><span>MiroFish adaptation</span></div>
     </section>
 
     <section class="slide">
@@ -459,7 +607,7 @@
         <div class="node"><b>4.2 Substrates</b><small>Advanced package substrates can become a bottleneck.</small></div>
         <div class="node downstream"><b>6.1 Datacenters</b><small>Compute availability only matters if sites, power, and cooling can absorb it.</small></div>
       </div>
-      <div class="footer"><span>06</span><span>Value-chain propagation</span></div>
+      <div class="footer"><span>08</span><span>Value-chain propagation</span></div>
     </section>
 
     <section class="slide">
@@ -471,7 +619,7 @@
         <div class="panel"><h3>Company view</h3><p>Memory executives and equipment reps see capacity plans, pricing strategy, and capex demand.</p></div>
       </div>
       <p>The simulation deliberately uses information asymmetry. A procurement agent should not reason the same way as a trader.</p>
-      <div class="footer"><span>07</span><span>Agent construction</span></div>
+      <div class="footer"><span>09</span><span>Agent construction</span></div>
     </section>
 
     <section class="slide">
@@ -486,7 +634,7 @@
         <div class="bar-row"><b>MU</b><div class="bar-track"><div class="bar negative" style="width: 5%"></div></div><span>-4.8</span></div>
       </div>
       <p>The strongest positive signals were infrastructure beneficiaries. Micron was the underweight candidate because the catalyst pressures scarcity economics even if demand remains healthy.</p>
-      <div class="footer"><span>08</span><span>Simulation results</span></div>
+      <div class="footer"><span>10</span><span>Simulation results</span></div>
     </section>
 
     <section class="slide">
@@ -500,7 +648,7 @@
         <div class="forecast"><div class="prob">54%</div><p>Memory equipment expectations move higher</p></div>
       </div>
       <p>This makes the output falsifiable: the forecasts can be scored later with Brier scores if outcomes are provided.</p>
-      <div class="footer"><span>09</span><span>Forecast overlay</span></div>
+      <div class="footer"><span>11</span><span>Forecast overlay</span></div>
     </section>
 
     <section class="slide">
@@ -521,7 +669,7 @@
       <div class="decision-box">
         <p>My proposed expression: long equipment and deployment beneficiaries vs. underweight MU if Samsung's ramp is confirmed.</p>
       </div>
-      <div class="footer"><span>10</span><span>Investment synthesis</span></div>
+      <div class="footer"><span>12</span><span>Investment synthesis</span></div>
     </section>
 
     <section class="slide">
@@ -533,7 +681,7 @@
         <div class="panel"><h3>More evaluation</h3><p>Track forecast outcomes over time and score calibration with Brier scores.</p></div>
       </div>
       <p>The goal was not to overfit a single answer. It was to build infrastructure that can produce, inspect, and challenge an investment view.</p>
-      <div class="footer"><span>11</span><span>Roadmap</span></div>
+      <div class="footer"><span>13</span><span>Roadmap</span></div>
     </section>
 
     <section class="slide">
@@ -548,7 +696,7 @@
       <div class="decision-box">
         <p>The main takeaway: Samsung HBM4 is not just negative for Micron. It is a chain-wide catalyst with different winners, bottlenecks, and risks.</p>
       </div>
-      <div class="footer"><span>12</span><span>Discussion</span></div>
+      <div class="footer"><span>14</span><span>Discussion</span></div>
     </section>
   </main>
 
@@ -582,4 +730,3 @@
   </script>
 </body>
 </html>
-
