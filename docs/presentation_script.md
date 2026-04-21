@@ -110,9 +110,13 @@ The reason this matters is information asymmetry. A procurement executive should
 
 The ticker output is intentionally multi-name.
 
-The strongest positive scores are cloud and equipment beneficiaries: AMZN, GOOGL, MSFT, ASML, AMAT, LRCX, Tokyo Electron, and NVDA.
+The strongest positive score is NVDA because the catalyst directly affects platform availability and supplier optionality. The hyperscalers are next because they benefit if GPU deployment can be pulled forward, but they are one step downstream from the HBM event.
+
+Equipment names are positive but slightly lower, because the capex response is real but more timing-dependent. AMAT, LRCX, ASML, and Tokyo Electron benefit if Samsung and peers need more memory and packaging capacity, but the signal depends on order conversion.
 
 Micron is the underweight candidate. The model does not say Micron demand collapses. It says the catalyst shifts the risk/reward. Demand may still be strong, but the premium memory pricing setup becomes less protected if Samsung is credible earlier than expected.
+
+I also added a score modifier so the bars are not artificially identical. The synthesis now accounts for evidence depth, disagreement, and ticker-level exposure to the specific catalyst. So a positive signal for NVDA does not get treated exactly the same as a positive signal for ASML or a hyperscaler.
 
 So the investment view is not "short all memory." It is more nuanced: favor the companies that benefit from broader AI deployment and capex response, while watching Micron's margin and share assumptions more carefully.
 

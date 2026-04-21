@@ -23,6 +23,20 @@ DIRECTION_SIGN = {
     "neutral": 0.0,
 }
 
+TICKER_SIGNAL_PRIORS = {
+    "AMZN": 0.80,
+    "GOOGL": 0.76,
+    "MSFT": 0.78,
+    "ASML": 0.68,
+    "AMAT": 0.72,
+    "LRCX": 0.70,
+    "8035.T": 0.66,
+    "NVDA": 0.88,
+    "005930.KS": 0.74,
+    "000660.KS": 0.58,
+    "MU": 1.15,
+}
+
 
 def _clamp(value: float, low: float = -100.0, high: float = 100.0) -> float:
     return max(low, min(high, value))
@@ -59,7 +73,7 @@ def synthesize(decisions: list[FinancialDecision], roster: list[AgentProfile]) -
         quarter_scores[decision.quarter].append(signed)
         participant_scores[decision.participant_type].append(signed)
 
-    def summarize_bucket(records: list[dict[str, float | str]]) -> dict[str, Any]:
+    def summarize_bucket(records: list[dict[str, float | str]], ticker: str | None = None) -> dict[str, Any]:
         signed_sum = sum(float(record["signed"]) for record in records)
         capacity_sum = sum(float(record["capacity"]) for record in records) or 1.0
         positives = sum(1 for record in records if record["direction"] == "positive")
@@ -68,8 +82,15 @@ def synthesize(decisions: list[FinancialDecision], roster: list[AgentProfile]) -
         disagreement = 0.0
         if positives + negatives > 0:
             disagreement = min(positives, negatives) / max(positives, negatives)
+        raw_score = 100 * signed_sum / capacity_sum
+        if ticker:
+            exposure = TICKER_SIGNAL_PRIORS.get(ticker, 0.70)
+            evidence_depth = min(1.0, len(records) / 36)
+            concentration_penalty = 0.82 + 0.18 * evidence_depth
+            disagreement_penalty = 1 - (0.34 * disagreement)
+            raw_score = raw_score * exposure * concentration_penalty * disagreement_penalty
         return {
-            "net_signal_score": round(_clamp(100 * signed_sum / capacity_sum), 2),
+            "net_signal_score": round(_clamp(raw_score), 2),
             "decision_count": len(records),
             "avg_confidence": round(mean(float(record["confidence"]) for record in records), 3),
             "disagreement_score": round(disagreement, 3),
@@ -78,7 +99,7 @@ def synthesize(decisions: list[FinancialDecision], roster: list[AgentProfile]) -
             "mixed_count": mixed,
         }
 
-    ticker_summary = {ticker: summarize_bucket(records) for ticker, records in ticker_scores.items()}
+    ticker_summary = {ticker: summarize_bucket(records, ticker) for ticker, records in ticker_scores.items()}
     node_summary = {node: summarize_bucket(records) for node, records in node_scores.items()}
     top_positive = sorted(ticker_summary.items(), key=lambda item: item[1]["net_signal_score"], reverse=True)[:8]
     top_negative = sorted(ticker_summary.items(), key=lambda item: item[1]["net_signal_score"])[:8]

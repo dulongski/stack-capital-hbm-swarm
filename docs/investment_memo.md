@@ -10,21 +10,21 @@ Samsung achieving yield parity and early NVIDIA qualification changes the negoti
 
 ## Highest-Conviction Positive Names
 
-- `AMZN`: score 50.0, 16 decisions, disagreement 0.0
-- `GOOGL`: score 50.0, 16 decisions, disagreement 0.0
-- `MSFT`: score 50.0, 16 decisions, disagreement 0.0
-- `ASML`: score 50.0, 20 decisions, disagreement 0.0
-- `AMAT`: score 50.0, 20 decisions, disagreement 0.0
+- `NVDA`: score 40.07, 44 decisions, disagreement 0.0
+- `AMZN`: score 36.0, 16 decisions, disagreement 0.0
+- `MSFT`: score 35.1, 16 decisions, disagreement 0.0
+- `GOOGL`: score 34.2, 16 decisions, disagreement 0.0
+- `AMAT`: score 33.12, 20 decisions, disagreement 0.0
 
 Positive signals are strongest where loosened HBM availability increases units, capex, or deployment velocity rather than simply redistributing memory margin. Equipment and platform beneficiaries screen better than a pure long-Micron interpretation.
 
 ## Highest-Conviction Negative Or Impaired Names
 
-- `MU`: score -4.84, 80 decisions, disagreement 0.571
-- `000660.KS`: score 15.47, 40 decisions, disagreement 0.5
-- `005930.KS`: score 34.3, 68 decisions, disagreement 0.182
-- `NVDA`: score 45.54, 44 decisions, disagreement 0.0
-- `AMZN`: score 50.0, 16 decisions, disagreement 0.0
+- `MU`: score -4.49, 80 decisions, disagreement 0.571
+- `000660.KS`: score 7.45, 40 decisions, disagreement 0.5
+- `005930.KS`: score 23.81, 68 decisions, disagreement 0.182
+- `8035.T`: score 30.36, 20 decisions, disagreement 0.0
+- `ASML`: score 31.28, 20 decisions, disagreement 0.0
 
 Negative signals cluster around names exposed to premium memory pricing compression. The simulation does not say Micron demand disappears; it says the risk/reward shifts from scarcity margin expansion toward contract durability and capex execution.
 
